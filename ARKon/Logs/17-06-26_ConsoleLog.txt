@@ -1,0 +1,68 @@
+[22:49:26] Connecting...
+[22:49:26] Connected
+[22:49:44] > serverchatto "76561198158404941" Private Message - SERVER: OOPA
+[22:49:45] SERVER: Private Message - SERVER: OOPA
+[22:49:56] > broadcast SERVER: boa noite senhores
+[22:52:21] > cheat giveitemtoplayer 76561198158404941 "blueprint'/game/primalearth/coreblueprints/weapons/primalitem_weaponmetalhatchet.primalitem_weaponmetalhatchet'" 1 65 false
+[22:52:21] Server received command but the command had no response.
+
+[22:53:07] > getplayeridforsteamid 76561198158404941
+[22:53:07] 
+SteamID: 0, PlayerID: 2147483647 
+ 
+[22:53:33] > cheat giveitemtoplayer 2147483647 "blueprint'/game/primalearth/coreblueprints/weapons/primalitem_weaponmetalhatchet.primalitem_weaponmetalhatchet'" 1 65 false
+[22:53:33] Server received command but the command had no response.
+
+[22:54:32] > cheat giveitemtoplayer 2147483647  "blueprint'/game/primalearth/coreblueprints/weapons/primalitem_weaponmetalhatchet.primalitem_weaponmetalhatchet'" 1 65 false
+[22:54:32] Server received command but the command had no response.
+
+[23:10:29] Player Disconnected: LMorningstar (76561198158404941)
+[23:12:21] Lost connection to server
+[23:12:21] Disconnected
+[23:12:21] Connection lost ... Reconnecting
+[23:12:25] Connecting...
+[23:21:18] Disconnected
+[23:21:19] Connecting...
+[23:21:19] Connected
+[23:22:54] > giveitem 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalrailing.primalitemstructure_metalrailing' 1 1 0
+[23:22:54]  
+ 'GiveItem': Bad or missing property 'blueprintPath'
+
+[23:23:16] > giveitem 76561198158404941 blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalrailing.primalitemstructure_metalrailing' 1 1 0
+[23:23:16]  
+ 'GiveItem': Bad or missing property 'blueprintPath'
+
+[23:23:21] Player Connected: LMorningstar (76561198158404941)
+[23:23:21] Player Connected: S4d0 (76561199077683104)
+[23:24:58] > spawndino 76561198158404941 blueprint'/game/primalearth/dinos/ankylo/ankylo_character_bp.ankylo_character_bp' 100 0 0 0 0
+[23:24:58]  
+ 'SpawnDino': Bad or missing property 'blueprintPath'
+
+[23:26:21] > giveitem 76561198158404941 "blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalrailing.primalitemstructure_metalrailing'" 1 1 0
+[23:26:21]  
+ 'GiveItem': Bad or missing property 'blueprintPath'
+
+[23:28:24] > giveitemnumtoplayer 76561198158404941 77 1 0 0
+[23:28:24] Server received command but the command had no response.
+
+[23:28:53] > giveitemnumtoplayer 2147483647 77 1 0 0
+[23:28:53] Server received command but the command had no response.
+
+[23:31:10] > giveitemtoplayer 76561198158404941 "blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalrailing.primalitemstructure_metalrailing'" 1 1 0
+[23:31:10] Server received command but the command had no response.
+
+[23:34:15] > giveitem 2147483647  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalrailing.primalitemstructure_metalrailing' 1 1 0
+[23:34:16]  
+ 'GiveItem': Bad or missing property 'blueprintPath'
+
+[23:34:29] > giveitem 2147483647  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalrailing.primalitemstructure_metalrailing' 1 1 0
+[23:34:29]  
+ 'GiveItem': Bad or missing property 'blueprintPath'
+
+[23:34:46] Disconnected
+[23:34:47] Connecting...
+[23:34:47] Connected
+[23:38:35] > giveitemnumtoplayer 2147483647 144 1 1 0
+[23:38:35] Server received command but the command had no response.
+
+[23:55:45] Connecting...

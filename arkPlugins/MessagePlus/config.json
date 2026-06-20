@@ -1,0 +1,24 @@
+{
+  "MessagePlus": {
+    "OnlyDiscordMsg": false,
+    "DiscordShowTribeName": true,
+    "DiscordShowMapName": true,
+    "joinAndleave": true,
+    "LocalChatDiscordWebHook": "https://discord.com/api/webhooks/1378062070104195082/kY4S-KcmGXiWQzehciROJqpTyBmJ4yBUOI_EBfeW1urnDznfHmQARR1Ie_Sm9Mc3_eU1",
+    "GlobalChatDiscordWebHook": "https://discord.com/api/webhooks/1378062070104195082/kY4S-KcmGXiWQzehciROJqpTyBmJ4yBUOI_EBfeW1urnDznfHmQARR1Ie_Sm9Mc3_eU1",
+    "TribeChatDiscordWebHook": "no",
+    "AllianceChatDiscordWebHook": "no",
+    "TitleDiscordName": "Eler o Retorno",
+	"ImagePath": "/Game/Aberration/Icons/Plants/PlantZ_Fruit_Icon.PlantZ_Fruit_Icon",
+    "NameColour": { "R": 0, "G": 1, "B": 0 },
+    "LocalChatColour": { "R": 1, "G": 0, "B": 0 },
+    "GlobalChatColour": { "R": 0, "G": 0, "B": 1 },
+    "TribeChatColour": { "R": 1, "G": 1, "B": 0 },
+    "AllianceChatColour": { "R": 0, "G": 1, "B": 1 },
+
+    "ReloadConfigCommand": "/mpreload",
+    "Messages": {
+      "ConfigUpdate": "MessagePlus config Updated!"
+    }
+  }
+}

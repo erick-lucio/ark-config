@@ -1,0 +1,29 @@
+{
+  "UiKey": "F3", //Key to open the shop
+  "ShopName": "Fancy Warehouse", //Shop Name label at the top of the shop window
+  "WebsiteUrl": "url", //web url
+  "DiscordUrl": "url", //web url
+  "VoteRewards": false, //Enable if using the Vote Rewards plugin
+  "DisableSellButton": false, //true will hide the sell option
+  "DisableTradeButton": false, //true will hide the trade option
+  "HideBuffIcon": false, //true will hide the Shop buff icon
+  "UseSteamOverlay": false, //true will use ingame steam overly browser //false will use external web browser
+  "OverrideShopIcon": "/Game/ScorchedEarth/Icons/Resources/WyvernEgg3_Icon", //changes the default shop buff icon
+  "OverrideCurrencyIcon": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Icons/Narcotic_Icon", //changes the default currency icon
+  "OverrideLabels": [ // override text on the UI elements
+    { "ItemsTabLabel": "Stuff" }, //Buy Items Tab
+    { "KitsTabLabel": "Packs" }, //Buy Kits Tab
+    { "StashTabLabel": "Yours" }, //Buy Stash Tab
+    { "SellTabLabel": "Sell" }, //Sell Items tab
+    { "TradeTabLabel": "Trade" }, //Trade Points tab
+    { "BuyViewLabel": "Get that!" }, //Buy menu toggle
+    { "SellViewLabel": "Sell that!" }, //Sell menu toggle
+    { "TradeViewLabel": "Trade that!" }, //trade menu toggle
+    { "BuyLabel": "Buy It" }, //Buy button text
+    { "SellLabel": "Sell It" }, //Sell button text
+    { "RedeemLabel": "Use It" }, //Redeem button text
+    { "WebsiteLabel": "Website" }, //Website button text
+    { "DiscordLabel": "Discord" }, //Discord button text
+    { "ClaimVotesLabel": "Claim Votes" } //Vote Rewards button text
+  ]
+}

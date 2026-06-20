@@ -1,0 +1,444 @@
+{
+  "General": {
+    "LogStructurePaths": false,
+    "BredTekDinosOnlyDropMeat": true,
+    "AutoDestroyBeaverDam": 120,
+    "AutoDestroyGlitchedEggs": true,
+    "DisableDinoDownloadsWhileMissionActive": true,
+    "PreventGrappleSlingShot": true,
+    "BabyDinosGiveNoXP": false,
+    "DisableReaperFollowExploit": true,
+    "DinoScanCooldown": 1,
+    "CryoCooldown": -1
+  },
+  "Commands": {
+    "CommandText": "/pvp",
+    "ServerList": "?",
+    "PlayerList": "player"
+  },
+  "FloatingDamageText": {
+    "Enabled": true,
+    "ShowAllDamage": false,
+    "HideZeroDamage": true,
+    "HideDamageWhenPvPFlagged": true,
+    "HideDamageFrom": [
+
+    ]
+  },
+  "ServerDefaults": {
+    "FloatingDamageText": {
+      "Id": 1,
+      "Name": "Floating Damage Text",
+      "Default": true
+    }
+  },
+  "PunishForDroppingFertEggs": {
+    "Enabled": false,
+    "TorporDino": true,
+    "DestroyEgg": true,
+    "OnlyPunishListEggs": true,
+    "PunishList": [
+      "PrimalItemConsumable_Egg_Wyvern_Fertilized",
+      "PrimalItemConsumable_Egg_CrystalWyvern_Fertilized",
+      "PrimalItemConsumable_Egg_RockDrake_Fertilized",
+      "PrimalItemConsumable_Egg_Cherufe_Fertilized",
+      "PrimalItemConsumable_Egg_Deinonychus_Fertilized"
+    ]
+  },
+  "UnequipBeforeTeleport": {
+    "Enabled": true,
+    "AffectedItems": [
+      "Cryopod",
+      "SoulTrap"
+    ]
+  },
+  "WeaponsJamOnDismount": {
+    "Enabled": true,
+    "JamTime": 3.0,
+    "AffectAllDinos": false,
+    "AffectAllWeapons": false,
+    "PreventMountedFiring": false,
+    "AffectedDinos": [
+      "Basilisk_Character_BP",
+      "Stego_Character_BP",
+      "BionicStego_Character_BP"
+    ],
+    "AffectedWeapons": [
+      "WeapRocketLauncher"
+    ]
+  },
+  "DisableC4OnDinos": {
+    "Enabled": true,
+    "AffectAllDinos": false,
+    "AffectPlayersOnDinos": true,
+    "UsePreventC4NearTribeStructuresRange": true,
+    "BlockOnMountedShoulderPets": true,
+    "AffectedDinos": [
+      "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'",
+      "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'"
+    ]
+  },
+  "PreventC4NearTribeStructures": {
+    "Enabled": true,
+    "Range": 3,
+    "IncludeAllies": true,
+    "IgnoreStructures": [
+      "C4Charge",
+      "DeathItemCache"
+    ]
+  },
+  "PreventStructurePlacementNearEnemyStructures": {
+    "Enabled": true,
+    "Range": 26,
+    "PreventAllStructures": false,
+    "AutoIgnoreMapStructures": true,
+    "IgnorePlatformStructures": true,
+    "IgnoreAllyStructures": false,
+    "PlatformBuildingIgnoresAllEnemyStructures": true,
+    "AffectedStructures": [
+      "SleepingBag"
+    ],
+    "IgnoreStructures": [
+      "DeathItemCache",
+      "BP_StorageSmall",
+      "StorageBox_Small",
+      "StorageBox_Large",
+      "BP_StorageMetal",
+      "BP_StorageLarge",
+      "BP_TekStorage",
+      "BP_VaultPlus",
+      "StorageBox_Huge"
+    ]
+  },
+  "PlatformStructureLimit": {
+    "Enabled": true,
+    "DefaultLimit": 32,
+    "TurretLimit": 5,
+    "PlatformOverrides": {
+      "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'": 50,
+      "Blueprint'/Game/Genesis/Dinos/TEKHoverSkiff/TekHoverSkiff_Character_BP.TekHoverSkiff_Character_BP'": 20,
+      "Blueprint'/Game/PrimalEarth/Items/Raft/Raft_BP.Raft_BP'": 10,
+      "Blueprint'/Game/PrimalEarth/Items/Raft/MotorRaft_BP.MotorRaft_BP'": 10
+    }
+  },
+  "PreventStructurePlacementOnPlatforms": {
+    "Enabled": true,
+    "AffectedStructures": [
+      "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Transmitter/BP_TransmitterPlus.BP_TransmitterPlus'",
+      "LargeHatchframeSloped_Metal",
+      "SM_MetalCeilingDoorWay_Giant_BP",
+      "SleepingBag",
+      "LargeHatchframe"
+    ]
+  },
+  "BossArena": {
+    "Enabled": true,
+    "CheckForRestricted": 10,
+    "ExcludeMaps": "Extinction",
+    "KillDinos": false,
+    "Babality": true,
+    "TorporDinos": {
+      "Enabled": false,
+      "TakeExtraDamageMultiplier": 0,
+      "AfterBossKillRemoveTorpor": true,
+      "AfterBossKillFullHealth": false,
+      "RemoveCollision": false
+    },
+    "BlockGrapple": {
+      "Enabled": true,
+      "Affected": [
+        "Blueprint'/Game/Mods/ToolsBasic/Grappling/PrimalItemAmmo_SalaGrapp.PrimalItemAmmo_SalaGrapp'"
+      ]
+    },
+    "BlockCommands": [
+      "/shop",
+      "/buy",
+      "/kit",
+      "/buykit",
+      "/sell",
+      "/upload",
+      "/download"
+    ],
+    "PreventDinos": [
+      "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'"
+    ],
+    "BossDinos": [
+      "SpiderL_Character_BP",
+      "Gorilla_Character_BP",
+      "Dragon_Character_BP_Boss",
+      "EndBoss_Character",
+      "Manticore_Character_BP",
+      "Rockwell_Character_BP",
+      "VRMainBoss_Character",
+      "CrystalWyvern_Character_BP_Boss",
+      "BossDinopithecus_Character_BP"
+    ]
+  },
+  "ManagarmrBreath": {
+    "Enabled": false,
+    "AdjustDamageVsPlayer": true,
+    "AdjustDamageVsTamedDino": true,
+    "AdjustDamageVsWildDinos": false,
+    "ReduceDamage": 100
+  },
+  "Magmasaur": {
+    "Enabled": false,
+    "ReduceStructureDamageByPercent": 50,
+    "PreventForceFeedAmbergrisOnAdult": true
+  },
+  "Arthropluera": {
+    "Enabled": false,
+    "ReduceStructureDamageByPercent": 50
+  },
+  "Flamethrower": {
+    "Enabled": false,
+    "ReduceFireDamageOverTime": 50
+  },
+  "Cannon": {
+    "Enabled": false,
+    "ReduceDamageByPercent": 50
+  },
+  "PreventClimbingPick": {
+    "Enabled": true,
+    "Range": 1.5,
+    "NearStructures": [
+      "Sign_Large"
+    ]
+  },
+  "PlantSpeciesZ": {
+    "DisableFlashBangOnPlayers": false
+  },
+  "Alliances": {
+    "Enabled": true,
+    "AllianceLeaveCooldown": 60,
+    "MaxAllianceTribeMembers": 8
+  },
+  "Tribes": {
+    "Enabled": true,
+    "TribeLeaveCooldown": 60,
+    "PreventJoiningAllianceWithCooldown": true
+  },
+  "PreventTurretMeshing": {
+    "Enabled": true,
+    "VerticalCollisionCheck": true,
+    "SphericalCollisonCheck": true,
+    "Height": 150.0,
+    "Radius": 75.0,
+    "HeightOffset": 10.0,
+    "ShowDetectionRange": true
+  },
+  "PreventDinoUploads": {
+    "Enabled": true,
+    "Dinos": [
+
+    ]
+  },
+  "PreventDinoDownloads": {
+    "Enabled": true,
+    "Dinos": [
+
+    ]
+  },
+  "NetGunIgnore": [
+
+  ],
+  "BlockPickup": [
+
+  ],
+  "Messages": {
+    "Sender": {
+      "Message": "PVP+"
+    },
+    "SettingChanged": {
+      "Message": "Your setting was updated"
+    },
+    "Error": {
+      "Message": "<RichColor Color=\"1, 0, 0, 1\">Something went wrong!</>"
+    },
+    "Usage": {
+      "Message": "Usage: /PVP <option number> <on/off> - will set your option setting\n/PVP ? - will provide a list of valid option numbers\n/PVP player - will show your current option settings"
+    },
+    "PreventC4Tribe": {
+      "Message": "C4 cannot be placed within {} foundations of Tribe structures!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PreventC4Allies": {
+      "Message": "C4 cannot be placed within {} foundations of Allied structures!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PreventC4TribeDet": {
+      "Message": "C4 cannot be detonated within {} foundations of Tribe structures!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PreventC4AlliesDet": {
+      "Message": "C4 cannot be detonated within {} foundations of Allied structures!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "C4DinoAll": {
+      "Message": "C4 on all dinos cause it to malfunction and will not explode!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "C4Dino": {
+      "Message": "C4 on {}'s cause it to malfunction and will not explode!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "EnemyStructureTooClose": {
+      "Message": "Enemy structure is closer than {} foundations. Building prevented!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PlacementPreventedOnPlatforms": {
+      "Message": "You cannot place this structure on a platform!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PlacementPreventedOnPlatformsStructureLimit": {
+      "Message": "This platform is limited to {} structures. Building prevented!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PlatformTurretLimit": {
+      "Message": "The turret will exceed the platform limit of {} turrets",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "GrappleNotAllowed": {
+      "Message": "CAN'T USE THIS HERE",
+      "Scale": 1.0,
+      "DisplayTime": 1.0,
+      "Color": "MediumGoldenrod"
+    },
+    "BadEgg": {
+      "Message": "'{0}' was a rotten egg!",
+      "Scale": 1.3,
+      "DisplayTime": 3.0,
+      "Color": "Red"
+    },
+    "WeaponJammed": {
+      "Message": "Your weapon has jammed! {} seconds until fixed!",
+      "Scale": 1.3,
+      "DisplayTime": 3.0,
+      "Color": "Red"
+    },
+    "WeaponJammedCleared": {
+      "Message": "Your weapon jam has been cleared!",
+      "Scale": 1.3,
+      "DisplayTime": 2.0,
+      "Color": "Green"
+    },
+    "NotWhileMounted": {
+      "Message": "Your weapon is unable to be fired while riding a dino.",
+      "Scale": 1.3,
+      "DisplayTime": 3.0,
+      "Color": "Red"
+    },
+    "MissionDownloads": {
+      "Message": "A mission is active! Dino downloads disabled!",
+      "Scale": 1.3,
+      "DisplayTime": 3.5,
+      "Color": "Blue"
+    },
+    "PreventClimbingPick": {
+      "Message": "You can't climb here!",
+      "Scale": 1.3,
+      "DisplayTime": 0.5,
+      "Color": "Coral"
+    },
+    "MaxAllianceTribeMembers": {
+      "Message": "Denied! Your alliance would be over the allowed {} tribe member limit!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Blue"
+    },
+    "MaxAlliances": {
+      "Message": "Denied! More than one Alliance was found.\nYou can only be in a single Alliance at a time!\nThe tribe you are inviting should not be in an Alliance.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Yellow"
+    },
+    "AllianceCooldownActive": {
+      "Message": "Denied! The Tribe you invited has an alliance join cooldown active.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "AllianceCooldownActiveFor": {
+      "Message": "Your tribe has an alliance join cooldown active for {} minutes.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "TribeCooldownActive": {
+      "Message": "Denied! There is a tribe join cooldown active.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "TribeCooldownActiveFor": {
+      "Message": "You have tribe join cooldown active for {} minutes.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "PlacementPreventedMeshing": {
+      "Message": "Not enough room to place the turret.",
+      "Scale": 1.3,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "DroppedEgg": {
+      "Message": "Dropping fertilized eggs is not allowed!\nEat it while you wait!",
+      "Scale": 1.3,
+      "DisplayTime": 6.0,
+      "Color": "Red"
+    },
+    "DinoDownloadBlocked": {
+      "Message": "{} is blocked from being downloaded.",
+      "Scale": 1.3,
+      "DisplayTime": 4.0,
+      "Color": "Red"
+    },
+    "DinoUnCryoBlocked": {
+      "Message": "{} is blocked from being un-cryod.",
+      "Scale": 1.3,
+      "DisplayTime": 4.0,
+      "Color": "Red"
+    },
+    "DinoUploadBlocked": {
+      "Message": "{} is blocked from being uploaded.",
+      "Scale": 1.3,
+      "DisplayTime": 4.0,
+      "Color": "Red"
+    },
+    "PickupBlocked": {
+      "Message": "{} is not allowed to be picked up!",
+      "Scale": 1.3,
+      "DisplayTime": 4.0,
+      "Color": "Red"
+    }
+  },
+  "Mysql": {
+    "UseMysql": false,
+    "MysqlHost": "localhost",
+    "MysqlPort": 3306,
+    "MysqlUser": "sqlusername",
+    "MysqlPass": "sqlpassword",
+    "MysqlDB": "mydatabasename"
+  }
+}

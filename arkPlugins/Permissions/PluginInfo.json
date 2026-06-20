@@ -1,0 +1,6 @@
+{
+  "FullName":"Permissions",
+  "Description": "Manage permissions groups for players and tribes",
+  "Version":2.0,
+  "MinApiVersion":3.54
+}

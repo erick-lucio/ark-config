@@ -1,0 +1,441 @@
+{
+  "General": {
+    "LogStructurePaths": true, //shows you the path of a structure you just placed to assist with getting proper paths
+    "BredTekDinosOnlyDropMeat": true, // Setting to true will force ONLY bred/hatched Tek dino to only harvest as a their normal non-Tek version to prevent resource farms. Setting to false leaves them having their default harvest settings (electronics, dust, etc).
+    "AutoDestroyBeaverDam": 60, //60 is the number of seconds after an item is removed from its inventory. Set to 0 to disable the feature. Beaver Dams do not drop a bag when destroyed.
+    "AutoDestroyGlitchedEggs": true, //This will remove eggs when dropped on the ground that are glitched from transfer gun and dedicated storage
+    "DisableDinoDownloadsWhileMissionActive": true, //Disables dino downloads when the player is on an active mission
+    "PreventGrappleSlingShot": true, //Enabling will prevent the slingshot (speed grappling) glitch
+    "BabyDinosGiveNoXP": false, //No XP is awarded for killing a baby dino
+    "DisableReaperFollowExploit": true, //Reaper will unfollow when buried and unbury when told to move.
+    "DinoScanCooldown": 1, //Prevent S+ Dino Scanner lag exploit //forces 1 second cooldown between clicks in the UI
+    "CryoCooldown": -1 //Changes the Cryo Cooldown to X seconds //-1 = vanilla timer //buff timer will still count down from 300 seconds if cryosickness is given but will end after X seconds
+  },
+  "Commands": {
+    "CommandText": "/pvp", //This is the command players use in game
+    "ServerList": "?", //This is the parameter to see server settings "/pvp ?"
+    "PlayerList": "player" //This is the parameter to see player settings "/pvp player"
+  },
+  "FloatingDamageText": {
+    "Enabled": true, //Turns on floating damage text
+    "ShowAllDamage": false, //True will show all damage from all sources (Normal ARK Behaviour). //False will only show damage to the parites involved
+    "HideZeroDamage": true, //True will hide 0 damage values from popping up
+    "HideDamageWhenPvPFlagged": true, //True will check if the player is PvP Flagged and stop displaying Floating Damage Text (PvPCooldowns is need for this to work)
+    "HideDamageFrom": [ //These listed structures will not trigger any damage numbers when they do damage.
+      "Blueprint'/Game/PrimalEarth/Structures/BuildingBases/StructureTurretBaseBP_Heavy.StructureTurretBaseBP_Heavy'",
+      "Blueprint'/Game/Mods/StructuresPlusMod/Misc/AutoTurretHeavy/BP_AutoTurret_Heavy.BP_AutoTurret_Heavy'",
+      "Blueprint'/Game/PrimalEarth/Structures/BuildingBases/StructureTurretBaseBP.StructureTurretBaseBP'",
+      "Blueprint'/Game/Mods/StructuresPlusMod/Misc/AutoTurret/BP_AutoTurret.BP_AutoTurret'",
+      "Blueprint'/Game/Mods/StructuresPlusMod/Misc/AutoTurretTek/BP_AutoTurretTek.BP_AutoTurretTek'",
+      "Blueprint'/Game/PrimalEarth/Structures/BuildingBases/StructureTurretTek.StructureTurretTek'"
+    ]
+  },
+  "ServerDefaults": { //Used for Player Overrides don't change it
+    "FloatingDamageText": { //Don't change
+      "Id": 1, //Don't change
+      "Name": "Floating Damage Text", //Customize the language as needed
+      "Default": true //true means players will see floating damage by default. false means they will have to do "/pvp 1 on" to see it
+    }
+  },
+  "PunishForDroppingFertEggs": { //Problems with players dropping fertilized eggs all of your map instead of eating them?
+    "Enabled": false, //true enables this feature
+    "TorporDino": true, //While riding a dino and dropping an egg is will fully torpor their dino as punishment.
+    "DestroyEgg": true, //While riding a dino and dropping an egg this will destroy the dropped egg.
+    "OnlyPunishListEggs": true, //true counts only eggs in the punish list //false counts any egg
+    "PunishList": [ //List of eggs to punish for dropping while mounted when OnlyPunishListEggs is true
+      "PrimalItemConsumable_Egg_Wyvern_Fertilized",
+      "PrimalItemConsumable_Egg_CrystalWyvern_Fertilized",
+      "PrimalItemConsumable_Egg_RockDrake_Fertilized",
+      "PrimalItemConsumable_Egg_Cherufe_Fertilized",
+      "PrimalItemConsumable_Egg_Deinonychus_Fertilized"
+    ]
+  },
+  "UnequipBeforeTeleport": { //Unequip the currently equppied weapon if in the "AffectedItems" list.
+    "Enabled": true,
+    "AffectedItems": [
+      "Cryopod",
+      "SoulTrap"
+    ]
+  },
+  "WeaponsJamOnDismount": { //Forces a weapon cycle when dismounting
+    "Enabled": true,
+    "JamTime": 3.0, //How long before the weapon can be fired
+    "AffectAllDinos": false, //Applies this to all dinos
+    "AffectAllWeapons": false, //Applies this to all weapons
+    "PreventMountedFiring": false, //Prevents firing a weapon based on the other settings here while being mounted
+    "AffectedDinos": [ //Applies this only to these dinos when "AffectAllDinos":false
+      "Basilisk_Character_BP"
+    ],
+    "AffectedWeapons": [ //Applies this only to these dinos when "AffectAllWeapons":false
+      "WeapRocketLauncher"
+    ]
+  },
+  "DisableC4OnDinos": { //Prevent placing C4 on dinos
+    "Enabled": true,
+    "AffectAllDinos": false, //Prevent detonating C4 on ALL dinos
+    "AffectPlayersOnDinos": true, //Extends rules to mounted players with C4 on them
+    "UsePreventC4NearTribeStructuresRange": true, //Uses the placement range to prevent detonation with that range
+    "BlockOnMountedShoulderPets": true, //Prevent C4 detonating on mounted shoulder pets
+    "AffectedDinos": [ //Only prevent on these dinos when "AffectAllDinos":false
+      "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'",
+      "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'"
+    ]
+  },
+  "PreventC4NearTribeStructures": { //Prevent placing C4 within X foundations of friendly structures.
+    "Enabled": true,
+    "Range": 3, //Range to prevent placement within
+    "IncludeAllies": true, //Include allies in the check
+    "IgnoreStructures": [ //Ignore these structures during checks
+      "C4Charge",
+      "DeathItemCache"
+    ]
+  },
+  "PreventStructurePlacementNearEnemyStructures": {
+    "Enabled": true,
+    "Range": 26, //X Foundations away
+    "PreventAllStructures": false, //Block every structure
+    "AutoIgnoreMapStructures": true, //Ignore map features like City Terminals or Water Veins
+    "IgnorePlatformStructures": true, //Prevent Platforms from blocking building on the ground
+    "IgnoreAllyStructures": false, //Do not count an ally structure as an enemy structure
+    "PlatformBuildingIgnoresAllEnemyStructures": true, //Building on a platform ignores all enemy structures
+    "AffectedStructures": [ //Prevent these structures from being placed
+      "SleepingBag"
+    ],
+    "IgnoreStructures": [ //These structures do not count as enemy structures
+      "DeathItemCache"
+    ]
+  },
+  "PlatformStructureLimit": { //Change platform structure limit
+    "Enabled": true,
+    "DefaultLimit": 32, //Default structure limit for anything not listed in "PlatformOverrides"
+    "TurretLimit": 5, //Limit turrets allowed to be placed on the platform -1 default limit, 0+ sets a limit.
+    "PlatformOverrides": {
+      "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'": 50,
+      "Blueprint'/Game/Genesis/Dinos/TEKHoverSkiff/TekHoverSkiff_Character_BP.TekHoverSkiff_Character_BP'": 20
+    }
+  },
+  "PreventStructurePlacementOnPlatforms": { //Prevent structures from being placed on platforms
+    "Enabled": true,
+    "AffectedStructures": [ //Structures not allowed to be placed
+      "Blueprint'/Game/Mods/StructuresPlusMod/Misc/Transmitter/BP_TransmitterPlus.BP_TransmitterPlus'",
+      "LargeHatchframeSloped_Metal",
+      "SM_MetalCeilingDoorWay_Giant_BP",
+      "SleepingBag",
+      "LargeHatchframe"
+    ]
+  },
+  "BossArena": { //Boss Arena Restrictions
+    "Enabled": true,
+    "CheckForRestricted": 10, //Frequency in seconds to make sure blocked dinos are not present
+    "ExcludeMaps": "Extinction", //Comma separated listed of maps to block from this feature and needs the full map name i.e. "Extinction,Valguero_P"
+    "KillDinos": false, //Kill dinos that are in the "PreventDinos" list
+    "Babality": true, //Turn dinos into babies that are in the "PreventDinos" list
+    "TorporDinos": { //Put dinos to sleep that are in the "PreventDinos" list
+      "Enabled": false,
+      "TakeExtraDamageMultiplier": 0, //Make them take more damage 1 = double damage, 10 = cryosickness
+      "AfterBossKillRemoveTorpor": true, //Wake them up after the boss fight if still alive
+      "AfterBossKillFullHealth": false, //Heal them to full HP after boss fight if still alive
+      "RemoveCollision": false //Allow walking through the sleeping dinos
+    },
+    "BlockGrapple": { //Disables grapple use for non-vanilla grapples
+      "Enabled": true,
+      "Affected": [ //List of any grapples that need disabled
+        "Blueprint'/Game/Mods/ToolsBasic/Grappling/PrimalItemAmmo_SalaGrapp.PrimalItemAmmo_SalaGrapp'"
+      ]
+    },
+    "BlockCommands": [ //Disallow using the following commands in the boss arena
+      "/shop",
+      "/buy",
+      "/kit",
+      "/buykit",
+      "/sell",
+      "/upload",
+      "/download"
+    ],
+    "PreventDinos": [ //List of dinos not allowed in boss arenas
+      "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'"
+    ],
+    "BossDinos": [ //List of boss dinos
+      "SpiderL_Character_BP",
+      "Gorilla_Character_BP",
+      "Dragon_Character_BP_Boss",
+      "EndBoss_Character",
+      "Manticore_Character_BP",
+      "Rockwell_Character_BP",
+      "VRMainBoss_Character",
+      "CrystalWyvern_Character_BP_Boss",
+      "BossDinopithecus_Character_BP"
+    ]
+  },
+  "ManagarmrBreath": { //Changes the Damage of the freezing breath
+    "Enabled": false,
+    "AdjustDamageVsPlayer": true, //True uses the "NewDamage" value below against players
+    "AdjustDamageVsTamedDino": true, //True uses the "NewDamage" value below against player owned dinos
+    "AdjustDamageVsWildDinos": false, //True uses the "NewDamage" value below against wild/unclaimed dinos
+    "ReduceDamage": 100 //Reduced by percentage, 100 = No Damage (still freezes), 0 = Normal Damage,  50 = Half Damage, etc
+  },
+  "Magmasaur": {
+    "Enabled": false,
+    "ReduceStructureDamageByPercent": 50, //Reduced by percentage, 100 = No Damage, 0 = Normal Damage,  50 = Half Damage, etc
+    "PreventForceFeedAmbergrisOnAdult": true //Feeding Ambergris gives no HP or Food value
+  },
+  "Arthropluera": {
+    "Enabled": false,
+    "ReduceStructureDamageByPercent": 50
+  },
+  "Flamethrower": {
+    "Enabled": false,
+    "ReduceFireDamageOverTime": 50 //Percent to reduce. If default damage is 8% of HP then 50 will make it only 4%
+  },
+  "Cannon": {
+    "Enabled": false,
+    "ReduceDamageByPercent": 50 //Reduced by percentage, 100 = No Damage, 0 = Normal Damage,  50 = Half Damage, etc
+  },
+  "PreventClimbingPick": { //Prevent Climbing Pick mesh exploits
+    "Enabled": false,
+    "Range": 1.5, //within X foundatitons of the "NearStructures" list
+    "NearStructures": [ //structures to prevent climbing on
+      "Sign_Large"
+    ]
+  },
+  "PlantSpeciesZ": {
+    "DisableFlashBangOnPlayers": false //Disable flash effect on players while still allowing for the dismount effect
+  },
+  "Alliances": { //Alliance size limits
+    "Enabled": false,
+    "AllianceLeaveCooldown": 60, //Number of minutes to block joining a new alliance after leaving one. 0 Disables the cooldown feature
+    "MaxAllianceTribeMembers": 8 //Tribe members allowed in the alliance (total members of all tribes in the alliance)
+  },
+  "Tribes": { //Tribe changes
+    "Enabled": false,
+    "TribeLeaveCooldown": 60, //Tribe members that leave a tribe will have to wait X minutes before they can join a new tribe
+    "PreventJoiningAllianceWithCooldown": true //This will prevent solo tribe players with cooldown from bypassing the restriction by doing an alliance
+  },
+  "PreventTurretMeshing": { //Enabling will help prevent turrets from being meshed
+    "Enabled": true,
+    "VerticalCollisionCheck": true, //Checks with a vertical line intersecting with mesh/objects (One or both of the collision checks must be used)
+    "SphericalCollisonCheck": true, //Checks with a sphere intersecting with mesh/objects (One or both of the collision checks must be used)
+    "Height": 150.0, //Vertical check height
+    "Radius": 75.0, //The larger the number the more restrictive the blocking, 75 minimum
+    "HeightOffset": 5.0, //This will allow minor adjustments to the distance between the ground and where the mesh detection takes place. Bigger number moves the detection up away from the ground. A number too low and it will have collision with the ground terrain and placement will always fail.
+    "ShowDetectionRange": true //This will display a visual indicator of the mesh detection. I don't really recommend using this permanently
+  },
+  "PreventDinoUploads": { //Enabling will allow blocking dinos from being uploaded
+    "Enabled": true,
+    "Dinos": [ //List of dinos you want to block
+      "Dodo_Character_BP",
+      "DesertKaiju"
+    ]
+  },
+  "PreventDinoDownloads": { //Enabling will allow blocking dinos from being downloaded or un-cryo'd. Each have their own unique messaging
+    "Enabled": true,
+    "Dinos": [ //List of dinos you want to block
+      "Dodo_Character_BP",
+      "DesertKaiju"
+    ]
+  },
+  "NetGunIgnore": [ //Disable being able to use the Net on the following non-wild whatever you put here (supports full or partial paths)
+    "Dodo_Character_BP",
+    "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'"
+  ],
+  "BlockPickup": [ //Always disable picking up on these structures
+    "Blueprint'/Game/PrimalEarth/Structures/StorageBox_AnvilBench.StorageBox_AnvilBench'",
+    "StorageBox_AnvilBench'"
+  ],
+  "Messages": { //Translate the messages as needed but if {} is present you need to keep it in your translation
+    "Sender": {
+      "Message": "PVP+"
+    },
+    "SettingChanged": {
+      "Message": "Your setting was updated"
+    },
+    "Error": {
+      "Message": "<RichColor Color=\"1, 0, 0, 1\">Something went wrong!</>"
+    },
+    "Usage": {
+      "Message": "Usage: /PVP <option number> <on/off> - will set your option setting\n/PVP ? - will provide a list of valid option numbers\n/PVP player - will show your current option settings"
+    },
+    "PreventC4Tribe": {
+      "Message": "C4 cannot be placed within {} foundations of Tribe structures!",
+      "Scale": 1.0, //Message display size
+      "DisplayTime": 5.0, //Message Display Time
+      "Color": "Red" //Message color see the colors.txt for avialable color names
+    },
+    "PreventC4Allies": {
+      "Message": "C4 cannot be placed within {} foundations of Allied structures!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PreventC4TribeDet": {
+      "Message": "C4 cannot be detonated within {} foundations of Tribe structures!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PreventC4AlliesDet": {
+      "Message": "C4 cannot be detonated within {} foundations of Allied structures!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "C4DinoAll": {
+      "Message": "C4 on all dinos cause it to malfunction and will not explode!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "C4Dino": {
+      "Message": "C4 on {}'s cause it to malfunction and will not explode!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "EnemyStructureTooClose": {
+      "Message": "Enemy structure is closer than {} foundations. Building prevented!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PlacementPreventedOnPlatforms": {
+      "Message": "You cannot place this structure on a platform!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PlacementPreventedOnPlatformsStructureLimit": {
+      "Message": "This platform is limited to {} structures. Building prevented!",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PlatformTurretLimit": {
+      "Message": "The turret will exceed the platform limit of {} turrets",
+      "Scale": 1.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "GrappleNotAllowed": {
+      "Message": "CAN'T USE THIS HERE",
+      "Scale": 1.0,
+      "DisplayTime": 1.0,
+      "Color": "MediumGoldenrod"
+    },
+    "BadEgg": {
+      "Message": "'{0}' was a rotten egg!",
+      "Scale": 1.3,
+      "DisplayTime": 3.0,
+      "Color": "Red"
+    },
+    "WeaponJammed": {
+      "Message": "Your weapon has jammed! {} seconds until fixed!",
+      "Scale": 1.3,
+      "DisplayTime": 3.0,
+      "Color": "Red"
+    },
+    "WeaponJammedCleared": {
+      "Message": "Your weapon jam has been cleared!",
+      "Scale": 1.3,
+      "DisplayTime": 2.0,
+      "Color": "Green"
+    },
+    "NotWhileMounted": {
+      "Message": "Your weapon is unable to be fired while riding a dino.",
+      "Scale": 1.3,
+      "DisplayTime": 3.0,
+      "Color": "Red"
+    },
+    "MissionDownloads": {
+      "Message": "A mission is active! Dino downloads disabled!",
+      "Scale": 1.3,
+      "DisplayTime": 3.5,
+      "Color": "Blue"
+    },
+    "PreventClimbingPick": {
+      "Message": "You can't climb here!",
+      "Scale": 1.3,
+      "DisplayTime": 0.5,
+      "Color": "Coral"
+    },
+    "MaxAllianceTribeMembers": {
+      "Message": "Denied! Your alliance would be over the allowed {} tribe member limit!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Blue"
+    },
+    "MaxAlliances": {
+      "Message": "Denied! More than one Alliance was found.\nYou can only be in a single Alliance at a time!\nThe tribe you are inviting should not be in an Alliance.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Yellow"
+    },
+    "AllianceCooldownActive": {
+      "Message": "Denied! The Tribe you invited has an alliance join cooldown active.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "AllianceCooldownActiveFor": {
+      "Message": "Your tribe has an alliance join cooldown active for {} minutes.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "TribeCooldownActive": {
+      "Message": "Denied! There is a tribe join cooldown active.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "TribeCooldownActiveFor": {
+      "Message": "You have tribe join cooldown active for {} minutes.",
+      "Scale": 1.0,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "PlacementPreventedMeshing": {
+      "Message": "Not enough room to place the turret.",
+      "Scale": 1.3,
+      "DisplayTime": 8.0,
+      "Color": "Red"
+    },
+    "DroppedEgg": {
+      "Message": "Dropping fertilized eggs is not allowed!\nEat it while you wait!",
+      "Scale": 1.3,
+      "DisplayTime": 6.0,
+      "Color": "Red"
+    },
+    "DinoDownloadBlocked": {
+      "Message": "{} is blocked from being downloaded.",
+      "Scale": 1.3,
+      "DisplayTime": 4.0,
+      "Color": "Red"
+    },
+    "DinoUnCryoBlocked": {
+      "Message": "{} is blocked from being un-cryod.",
+      "Scale": 1.3,
+      "DisplayTime": 4.0,
+      "Color": "Red"
+    },
+    "DinoUploadBlocked": {
+      "Message": "{} is blocked from being uploaded.",
+      "Scale": 1.3,
+      "DisplayTime": 4.0,
+      "Color": "Red"
+    },
+    "PickupBlocked": {
+      "Message": "{} is not allowed to be picked up!",
+      "Scale": 1.3,
+      "DisplayTime": 4.0,
+      "Color": "Red"
+    }
+  },
+  "Mysql": { //Configure this if you want to use MySQL otherwise leave it as is.
+    "UseMysql": false,
+    "MysqlHost": "localhost",
+    "MysqlPort": 3306,
+    "MysqlUser": "user",
+    "MysqlPass": "pass",
+    "MysqlDB": "dbname"
+  }
+}

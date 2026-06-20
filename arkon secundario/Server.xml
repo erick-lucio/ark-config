@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfACC_Server xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ACC_Server>
+    <Nr>1</Nr>
+    <ServerName>server</ServerName>
+    <GameName>ark</GameName>
+    <Group>1</Group>
+    <IP>WVXIE0iKRPHVPT2SYCLUqMYa7RHxs3t9WyIHtIL+JCU=</IP>
+    <Port>30112</Port>
+    <Passwort>8r2Wr72gCZ6Yh1nxyPsTzPbkoKwl8c2og2BT7Cu/GOfYL7bxQLHcItMVh35UbYQZyBE+ZXlEiNsYKzBXGsapVA==</Passwort>
+    <ChatName>server</ChatName>
+    <Color>#FF025C7A</Color>
+    <authorized>true</authorized>
+  </ACC_Server>
+</ArrayOfACC_Server>

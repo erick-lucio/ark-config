@@ -1,0 +1,6 @@
+/* 
+ * Copyright (C) Lethal Plugins - All Rights Reserved
+ * Unauthorized copying/distribution of these files, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Lethal <www.lethalplugins.com>, April 2024
+ */

@@ -1,0 +1,49 @@
+[00:17:42] Player Disconnected: LMorningstar (76561198158404941)
+[00:17:42] Player Disconnected: S4d0 (76561199077683104)
+[19:48:40] Connecting...
+[19:48:40] Connected
+[19:49:06] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/pillars/small/stone/primalitemstructure_smallpillar_stone.primalitemstructure_smallpillar_stone' 15 1 0
+[19:49:06] Successfully gave items
+
+[19:49:29] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 50 1 0
+[19:49:29] Successfully gave items
+
+[19:49:42] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 50 1 0
+[19:49:42] Successfully gave items
+
+[19:53:22] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 35 1 0
+[19:53:22] Successfully gave items
+
+[19:57:55] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/pillars/small/stone/primalitemstructure_smallpillar_stone.primalitemstructure_smallpillar_stone' 15 1 0
+[19:57:55] Successfully gave items
+
+[20:00:02] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/doors/gates/large/metal/primalitemstructure_largegate_metal.primalitemstructure_largegate_metal' 2 1 0
+[20:00:02] Successfully gave items
+
+[20:00:09] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/gateways/large/metal/primalitemstructure_largegateway_metal.primalitemstructure_largegateway_metal' 2 1 0
+[20:00:09] Successfully gave items
+
+[20:00:39] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/gateways/large/metal/primalitemstructure_largegateway_metal.primalitemstructure_largegateway_metal' 2 1 0
+[20:00:39] Successfully gave items
+
+[20:00:46] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/doors/gates/large/metal/primalitemstructure_largegate_metal.primalitemstructure_largegate_metal' 2 1 0
+[20:00:46] Successfully gave items
+
+[20:03:39] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 35 1 0
+[20:03:39] Successfully gave items
+
+[20:05:59] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 50 1 0
+[20:05:59] Successfully gave items
+
+[20:07:51] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/walls/metal/primalitemstructure_wall_metal.primalitemstructure_wall_metal' 21 1 0
+[20:07:51] Successfully gave items
+
+[20:08:43] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/walls/metal/primalitemstructure_wall_metal.primalitemstructure_wall_metal' 89 1 0
+[20:08:43] Successfully gave items
+
+[20:11:55] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/walls/metal/primalitemstructure_wall_metal.primalitemstructure_wall_metal' 81 1 0
+[20:11:55] Successfully gave items
+
+[20:25:42] Player Connected: KalangoCego (76561198311935617)
+[20:26:42] Player Connected: BRUTAL ITS OVER ... (76561198419549914)
+[20:56:42] Player Connected: Suciiiiii (76561198166323148)

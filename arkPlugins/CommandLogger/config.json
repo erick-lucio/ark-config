@@ -1,0 +1,62 @@
+{	
+  "General": {
+    "CustomSender": "",
+    "CustomMapName": "",
+    "ExtraConsoleLog": false,
+    "LogPasswordAttempts": true,
+    "MaskPassword": true,
+    "MessageSettings": {
+      "Chat": {
+        "Format": "<RichColor Color=\"1, 0, 0, 1\">{username}</> - Executed Admin Command<RichColor Color=\"0, 1, 1, 1\">{command}</>"
+      },
+      "Notification": {
+        "Format": "{username} - Executed Admin Command: {command}",
+        "Color": [ 1.0, 0.6, 0.0, 0.75 ],
+        "Time": 10.0,
+        "Size": 0.5
+      }
+    }
+  },
+  "Webhooks": {
+    "Chat": {
+      "Enable": true,
+      "Ignore": [ "shop", "buy", "buykit", "sell" ],
+      "ExcludeIDs": [ 111111111111, 222222222222 ],
+      "SendInterval": 1.0,
+      "Format": "[{timeStamp}]:[{map}][Chat] {username} ({userID}) - Pos {positionX} {positionY} {positionZ} ({coordsX}/{coordsY}) - Chat Command {command}",
+      "URL": "https://discord.com/api/webhooks/1378062350728433814/OzfOGiKOXJxT4-MVAFuv12jPci8GsBShQgqNCcVtyRUNMP-DhlzlGRAnNIeRjkBOhfUW"
+    },
+    "Console": {
+      "Enable": true,
+      "Ignore": [ "shop", "buy", "buykit", "sell" ],
+      "ExcludeIDs": [ 111111111111, 222222222222 ],
+      "LogToNotification": true,
+      "LogToChat": true,
+      "SendInterval": 1.0,
+      "Format": "[{timeStamp}]:[{map}][Console] {username} ({userID}) - Pos {positionX} {positionY} {positionZ} ({coordsX}/{coordsY}) - Console Command {command}",
+      "URL": "https://discord.com/api/webhooks/1378062350728433814/OzfOGiKOXJxT4-MVAFuv12jPci8GsBShQgqNCcVtyRUNMP-DhlzlGRAnNIeRjkBOhfUW"
+    },
+    "GCM": {
+      "Enable": true,
+      "Ignore": [ "shop", "buy", "buykit", "sell" ],
+      "ExcludeIDs": [],
+      "LogToNotification": false,
+      "LogToChat": false,
+      "SendInterval": 0.0,
+      "Format": "[{timeStamp}]:[{map}][GCM] {username} ({userID}) - Pos {positionX} {positionY} {positionZ} ({coordsX}/{coordsY}) - GCM Command {command}",
+      "URL": "https://discord.com/api/webhooks/1378062350728433814/OzfOGiKOXJxT4-MVAFuv12jPci8GsBShQgqNCcVtyRUNMP-DhlzlGRAnNIeRjkBOhfUW"
+    },
+    "RCON": {
+      "Enable": true,
+      "Ignore": [ "broadcast", "doexit", "getchat", "listplayers", "test" ],
+      "SendInterval": 1.0,
+      "Format": "[{timeStamp}]:[{map}][RCON] \\n\\n{command} - Source {source}",
+      "URL": "https://discord.com/api/webhooks/137865453333814/OzfOg43445hJxT4-MVAF65644433sBShQgqNCc4564MP-Dhlz343564kBO456UW"
+    },
+	"CrashLogger":{
+	  "Enable": true,
+      "Format": "[{timeStamp}]:[{map}][Crash] {sessionName}",
+	  "URL": "https://discord.com/api/webhooks/1378062350728433814/OzfOGiKOXJxT4-MVAFuv12jPci8GsBShQgqNCcVtyRUNMP-DhlzlGRAnNIeRjkBOhfUW"
+	}
+  }
+}

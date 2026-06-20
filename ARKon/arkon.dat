@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<SaveContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Data>
+    <ServerInformation>
+      <Id>710070ae-bc8f-47c3-91c7-34652d307b25</Id>
+      <Name>SERVER</Name>
+      <IP>199.127.62.149</IP>
+      <Port>30112</Port>
+      <Password>$k8lo1IpO8@Ba84XJeWggdfg*Z5</Password>
+      <Active>true</Active>
+      <ChatName>SERVER</ChatName>
+    </ServerInformation>
+  </Data>
+  <AlertPhrases />
+  <TimedCommands />
+  <Theme>Dark</Theme>
+</SaveContainer>

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "WebFetch(domain:ark.fandom.com)",
+      "WebSearch",
+      "WebFetch(domain:ark.wiki.gg)",
+      "WebFetch(domain:www.dododex.com)",
+      "Bash(python3:*)",
+      "Bash(find 'C:/ark server' -name *.log -o -name ArkShop*)",
+      "Bash(find 'C:/ark server' -name *.log)",
+      "Bash(find 'C:/ark server/ARKon' -name *.log)",
+      "Bash(find 'C:/ark server' -type f -name *blueprint* -o -name *dino* -o -name *creature*)",
+      "Bash(find 'C:/ark server' -type f \\\\\\(-name *.txt -o -name *.cfg -o -name *.ini -o -name *.sql \\\\\\))",
+      "Bash(find 'C:/ark server' -type f -name *.json -o -name *.txt)",
+      "Bash(xargs grep:*)",
+      "WebFetch(domain:arkids.net)",
+      "Bash(find 'C:/ark server' -name *.json -o -name *.cfg -o -name *.ini)"
+    ]
+  }
+}

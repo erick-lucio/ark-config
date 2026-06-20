@@ -1,0 +1,69 @@
+{
+  "General": {
+    "CustomSender": "", // If you need a customer sender for discord
+    "CustomMapName": "", // Custom map name instead of the built-in auto map name discovery (this will override -serverkey value)
+    "ExtraConsoleLog": true, // To add support for plugins like "Admins Permissions". (They will be concidered as console cmds.)
+    "LogPasswordAttempts": true, // If you want to log all password attempts that is being done with enablecheats
+    "MaskPassword": true, // If it should always mask the password they are trying with.
+    "MessageSettings": {
+      "Chat": { // Ingame chat log section
+        "Format": "<RichColor Color=\"1, 0, 0, 1\">{username}</> - Executed Admin Command<RichColor Color=\"0, 1, 1, 1\">{command}</>" // Custom formatting for the ingame chat log
+      },
+      "Notification": { // Ingame notification log section 
+        "Format": "{username} - Executed Admin Command: {command}", // Custom formatting for the ingame notification log
+        "Color": [ 1.0, 0.6, 0.0, 0.75 ], // Custom colors, Red, Blue, Green, Alpha
+        "Time": 10.0, // Custom time for the notification message
+        "Size": 0.5 // Custom size for the notification message
+      }
+    }
+  },
+  "Webhooks": { // Discord messaging section
+    "Chat": { // Discord-Chat Commands section
+      "Enable": true, // If true all commands that starts with / will be posted with this webhook section 
+      "Ignore": [ "" ], // If you want to ignore some commands being sent add it to the ignore list & it won't be posted to discord. For example: ["/cmd1", "/cmd2"]
+      "ExcludeIDs": [ 111111111111, 222222222222 ], // If you want to been sneeky & don't want to expose from doing the nasty commands. Supports Steam/Epic ids!
+      "SendInterval": 1.0, // This value alters the queue engine from how often it will post to discord, recommeding not go below 1.0 seconds.
+      "Format": "[{map}][Chat] {username} ({userID}) - Pos {positionX} {positionY} {positionZ} ({coordsX}/{coordsY}) - Cmd {command}", // Custom formatting that will be sent to discord
+      "URL": "YOURWEBHOOK" // Your discord webhook that you want to use for this section 
+    },
+    "Console": { // Discord-Console/ExtraConsoleLog Commands section
+      "Enable": true, // If true all commands from console will be posted with this webhook section 
+      "Ignore": [ "" ], // If you want to ignore some commands being sent add it to the ignore list & it won't be posted to discord. For example: ["cmd1", "cmd2"]
+      "ExcludeIDs": [ 111111111111, 222222222222 ], // If you want to been sneeky & don't want to expose from doing the nasty commands. Supports Steam/Epic ids!
+      "LogToNotification": true, // If you want the command to be logged to in-game notifications
+      "LogToChat": true, // If you want the command to be logged to in-game chat
+      "SendInterval": 1.0, // This value alters the queue engine from how often it will post to discord, recommeding not go below 1.0 seconds.
+      "Format": "[{map}][Console] {username} ({userID}) - Pos {positionX} {positionY} {positionZ} ({coordsX}/{coordsY}) - Cmd {command}", // Custom formatting that will be sent to discord
+      "URL": "YOURWEBHOOK" // Your discord webhook that you want to use for this section 
+    },
+    "GCM": { // Discord-GCM Commands section
+      "Enable": true, // If true all commands from GCM will be posted with this webhook section 
+      "Ignore": [ "" ], // If you want to ignore some commands being sent add it to the ignore list & it won't be posted to discord. For example: ["cmd1", "cmd2"]
+      "ExcludeIDs": [], // If you want to been sneeky & don't want to expose from doing the nasty commands. Supports Steam/Epic ids!
+      "LogToNotification": true, // If you want the command to be logged to in-game notifications
+      "LogToChat": false, // If you want the command to be logged to in-game chat
+      "SendInterval": 10.0, // This value alters the queue engine from how often it will post to discord, recommeding not go below 1.0 seconds.
+      "Format": "[{map}][GCM] {username} ({userID}) - Pos {positionX} {positionY} {positionZ} ({coordsX}/{coordsY}) - crafted {command}", // Custom formatting that will be sent to discord
+      "URL": "YOURWEBHOOK" // Your discord webhook that you want to use for this section 
+
+    },
+    "RCON": { // Discord-RCON Commands section
+      "Enable": true, // If true all commands from RCON will be posted with this webhook section 
+      "Ignore": [ "broadcast", "doexit", "getchat", "listplayers", "test" ], // If you want to ignore some commands being sent add it to the ignore list & it won't be posted to discord. For example: ["cmd1", "cmd2"]
+      "SendInterval": 1.0, // This value alters the queue engine from how often it will post to discord, recommeding not go below 1.0 seconds.
+      "Format": "[{map}][RCON] {command} - Source {source}", // Custom formatting that will be sent to discord
+      "URL": "YOURWEBHOOK" // Your discord webhook that you want to use for this section
+    }
+  }
+}
+
+All Supported Tags for formatting:
+{map} = Will post map (autoassigned by the plugin unless it's overwritten by CustomMapName or -serverkey (CustomMapName will override -serverkey))
+{username} = Will post SteamName or EpicName
+{userID} = Will post SteamID or EpicID
+{positionX} = Will post position X, format: "191406" 
+{positionY} = Will post position Y format: "-390430" 
+{positionZ} = Will post position X format: "-11552" 
+{coordsX} = Will post in-game coords "54"
+{coordsY} = Will post in-game coords "12"
+{command} = Will post command or crafted item with GCM 

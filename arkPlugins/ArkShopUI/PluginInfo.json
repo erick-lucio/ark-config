@@ -1,0 +1,10 @@
+{
+  "FullName": "ArkShopUI",
+  "Description": "ArkShopUI requires ArkShop 3.02+",
+  "Version": 1.12,
+  "MinApiVersion": 3.5,
+  "Dependencies": [
+    "ArkShop",
+    "Permissions"
+  ]
+}

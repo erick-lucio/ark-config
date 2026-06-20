@@ -1,0 +1,403 @@
+[00:00:35] Disconnected
+[00:00:35] Connecting...
+[00:00:36] Connected
+[00:01:57] > giveitem 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalrailing.primalitemstructure_metalrailing' 1 1 0
+[00:01:57]  
+ 'GiveItem': Bad or missing property 'blueprintPath'
+
+[00:02:25] > cheat giveitemtoplayer 2147483647 "blueprint'/game/primalearth/coreblueprints/weapons/primalitem_weaponmetalhatchet.primalitem_weaponmetalhatchet'" 1 65 false
+[00:02:25] Server received command but the command had no response.
+
+[00:02:38] Player Connected: LMorningstar (76561198158404941)
+[00:03:11] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalrailing.primalitemstructure_metalrailing' 1 1 0
+[00:03:11] Successfully gave items
+
+[00:06:01] > spawndinotosteamid 76561198158404941 blueprint'/game/primalearth/dinos/ankylo/ankylo_character_bp.ankylo_character_bp' 100 0 0 0 0
+[00:06:01] Server received command but the command had no response.
+
+[00:10:37] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/ankylo/ankylo_character_bp.ankylo_character_bp' 100 0 0 0 0
+[00:10:37] Not enough arguments: SpawnDinoBP <SteamID> <BlueprintPath> <DinoLevel> <Tamed> <Neutered> <X> <Y> <Z>
+
+[00:11:02] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/ankylo/ankylo_character_bp.ankylo_character_bp' 100 0 0 0 0
+[00:11:02] Not enough arguments: SpawnDinoBP <SteamID> <BlueprintPath> <DinoLevel> <Tamed> <Neutered> <X> <Y> <Z>
+
+[00:11:27] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/ankylo/ankylo_character_bp.ankylo_character_bp' 100 1 0 0 0 0
+[00:11:27] Successfully spawned dino
+
+[00:13:29] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/basebps/primalitemconsumablebuff_parachute.primalitemconsumablebuff_parachute' 15 1 0
+[00:13:29] Successfully gave items
+
+[00:15:28] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_cookedmeat.primalitemconsumable_cookedmeat' 150 1 0
+[00:15:28] Successfully gave items
+
+[00:18:09] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_sleepingbag_hide.primalitemstructure_sleepingbag_hide' 15 1 0
+[00:18:09] Successfully gave items
+
+[00:22:16] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_cookedmeat.primalitemconsumable_cookedmeat' 150 1 0
+[00:22:16] Successfully gave items
+
+[00:34:59] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/basebps/primalitemconsumablebuff_parachute.primalitemconsumablebuff_parachute' 15 1 0
+[00:34:59] Successfully gave items
+
+[00:36:03] > > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_sleepingbag_hide.primalitemstructure_sleepingbag_hide' 15 1 0
+[00:36:03] Server received command but the command had no response.
+
+[00:36:14] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_sleepingbag_hide.primalitemstructure_sleepingbag_hide' 15 1 0
+[00:36:14] Successfully gave items
+
+[00:36:33] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/basebps/primalitemconsumablebuff_parachute.primalitemconsumablebuff_parachute' 15 1 0
+[00:36:33] Successfully gave items
+
+[00:37:22] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/basebps/primalitemconsumablebuff_parachute.primalitemconsumablebuff_parachute' 15 1 0
+[00:37:22] Successfully gave items
+
+[00:37:26] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_sleepingbag_hide.primalitemstructure_sleepingbag_hide' 15 1 0
+[00:37:26] Successfully gave items
+
+[00:40:04] > giveitemtosteamid 76561198158404941  blueprint'/game/genesis2/dinos/milkglider/primalitemarmor_milkglidersaddle.primalitemarmor_milkglidersaddle' 1 100 0
+[00:40:04] Successfully gave items
+
+[00:41:14] > spawndinobp 76561198158404941 blueprint'/game/genesis2/dinos/milkglider/milkglider_character_bp.milkglider_character_bp' 100 1 0 0 0 0
+[00:41:14] Successfully spawned dino
+
+[00:44:47] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_sleepingbag_hide.primalitemstructure_sleepingbag_hide' 15 1 0
+[00:44:47] Successfully gave items
+
+[00:47:04] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/megatherium/megatherium_character_bp.megatherium_character_bp' 130 1 0 0 0 0
+[00:47:04] Successfully spawned dino
+
+[00:47:18] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_sleepingbag_hide.primalitemstructure_sleepingbag_hide' 15 1 0
+[00:47:18] Successfully gave items
+
+[00:50:45] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/armor/saddles/primalitemarmor_megatheriumsaddle.primalitemarmor_megatheriumsaddle' 1 100 0
+[00:50:45] Successfully gave items
+
+[00:54:50] > giveitemtosteamid 76561198158404941  blueprint'/game/extinction/coreblueprints/weapons/primalitem_weaponemptycryopod.primalitem_weaponemptycryopod' 5 1 0
+[00:54:50] Successfully gave items
+
+[00:57:25] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_cookedmeat.primalitemconsumable_cookedmeat' 90 1 0
+[00:57:25] Successfully gave items
+
+[01:27:36] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[01:27:36] Disconnected
+[01:27:36] Connection lost ... Reconnecting
+[01:27:40] Connecting...
+[01:27:40] Connected
+[01:30:53] Lost connection to server
+[01:30:53] Disconnected
+[01:30:53] Connection lost ... Reconnecting
+[01:30:57] Connecting...
+[02:18:17] Disconnected
+[02:18:17] Connection lost ... Reconnecting
+[09:14:56] Connecting...
+[09:14:56] Connected
+[09:14:58] LMorningstar (Tiago): bom dia
+[09:14:58] Suciiiiii (Papai Smurf Negro): bom dia tiago lopes
+[09:14:58] LMorningstar (Tiago): como esta o farm ai amigo
+[09:14:58] Suciiiiii (Papai Smurf Negro): excelente
+[09:14:58] LMorningstar (Tiago): quantos mil pontos ja?
+[09:14:58] Suciiiiii (Papai Smurf Negro): 3 bilhões
+[09:14:58] LMorningstar (Tiago): eai quais os planos p esses server
+[09:14:58] Suciiiiii (Papai Smurf Negro): se o leandro souber q tem loja vai te matar
+[09:14:58] LMorningstar (Tiago): pq
+[09:14:58] Suciiiiii (Papai Smurf Negro): vc vai descobrir
+[09:14:58] LMorningstar (Tiago): q isso amigo
+[09:15:26] LMorningstar (Tiago): compro oq de roubado ai
+[09:15:51] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_healsoup.primalitemconsumable_healsoup' 50 1 0
+[09:15:51] Successfully gave items
+
+[09:15:54] Suciiiiii (Papai Smurf Negro): por enquanto nada
+[09:16:08] LMorningstar (Tiago): bacana
+[09:16:14] LMorningstar (Tiago): faz um financiamento
+[09:17:48] LMorningstar (Tiago): e onde q e a base dessa vez?
+[09:17:58] Suciiiiii (Papai Smurf Negro): tenho q ver no youtube ainda
+[09:18:04] Suciiiiii (Papai Smurf Negro): top 10 rathole the center
+[09:21:30] LMorningstar (Tiago): me de sugestao de coisas p mecher na loja ai amigo
+[09:25:20] > spawndinobp 76561198158404941 blueprint'/game/genesis/dinos/bogspider/bogspider_character_bp.bogspider_character_bp' 130 1 0 0 0 0
+[09:25:20] Successfully spawned dino
+
+[09:30:55] Suciiiiii (Papai Smurf Negro): gostei que vc deu uma variada amigo
+[09:31:02] Suciiiiii (Papai Smurf Negro): em vez de rex na praia dos novatos
+[09:31:07] Suciiiiii (Papai Smurf Negro): agora é spino
+[09:38:23] LMorningstar (Tiago): e
+[09:38:31] LMorningstar (Tiago): tinha esquecido como manobrar isso aq
+[09:38:55] LMorningstar (Tiago): giga deu um tapa meia vida
+[09:43:08] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 50 1 0
+[09:43:08] Successfully gave items
+
+[09:56:41] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[09:56:41] Disconnected
+[09:56:41] Connection lost ... Reconnecting
+[09:56:45] Connecting...
+[09:56:46] Connected
+[10:40:10] Suciiiiii (Papai Smurf Negro): vc q setou a loja?
+[10:40:24] LMorningstar (Tiago): oq
+[10:40:27] LMorningstar (Tiago): pq
+[10:40:34] Suciiiiii (Papai Smurf Negro): faltando uma porrada de dino
+[10:40:40] LMorningstar (Tiago): tem uns bugado
+[10:40:48] LMorningstar (Tiago): to vendo de corrigir
+[10:40:52] LMorningstar (Tiago): vo por tudo n, muito trabalho
+[10:41:03] Suciiiiii (Papai Smurf Negro): o tek stryder correu pra botar
+[10:41:28] Suciiiiii (Papai Smurf Negro): essa loja funfa por comando? tipo quando vc compra dá um spawn forcetame no nome da pessoa?
+[10:41:42] LMorningstar (Tiago): s
+[10:41:53] Suciiiiii (Papai Smurf Negro): ent bem q podia botar um voidwyrm ein
+[10:42:04] LMorningstar (Tiago): me manda a lista no zap amigo
+[10:42:49] Suciiiiii (Papai Smurf Negro): mek e executor n precisa q tem receita se vc n tirou lá da config
+[11:27:19] LMorningstar (Tiago): opa
+[11:27:21] LMorningstar (Tiago): e esse trade seu ai
+[11:27:23] LMorningstar (Tiago): qq e isso
+[11:27:29] LMorningstar (Tiago): n vi como q funfa ainda
+[11:27:31] LMorningstar (Tiago): ta tradando oq
+[11:27:37] Suciiiiii (Papai Smurf Negro): pau e pedra
+[11:27:59] Suciiiiii (Papai Smurf Negro): procurando spawn de trilobita pra vender perola engra
+[11:29:03] LMorningstar (Tiago): no trade consigo de enviar ponto
+[11:30:21] LMorningstar (Tiago): na sua loja tem usn bicho bugado
+[11:30:27] LMorningstar (Tiago): eles tao bugado quando vc clica neles
+[11:30:29] LMorningstar (Tiago): e n mostra o icone
+[11:30:33] LMorningstar (Tiago): nem o level nome etc
+[11:30:35] LMorningstar (Tiago): olha ai
+[11:30:59] Suciiiiii (Papai Smurf Negro): é
+[11:31:05] Suciiiiii (Papai Smurf Negro): os primeiros tão bugados aq pra mim
+[11:38:15] LMorningstar (Tiago): e amigo
+[11:38:17] LMorningstar (Tiago): bora vender pedra
+[11:42:01] LMorningstar (Tiago): amigo vc esta  na pearl?
+[11:42:09] LMorningstar (Tiago): to vendo movimentos estranhos ali
+[11:42:29] Suciiiiii (Papai Smurf Negro): to não
+[11:43:45] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/platforms/cliff/circle/metal/primalitemstructure_cliff_circle_metal.primalitemstructure_cliff_circle_metal' 3 1 0
+[11:43:45] Successfully gave items
+
+[11:52:54] Suciiiiii (Papai Smurf Negro): shadowmane spawnando no spot de trilobita boa
+[12:01:59] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/doors/gates/large/metal/primalitemstructure_largegate_metal.primalitemstructure_largegate_metal' 2 1 0
+[12:01:59] Successfully gave items
+
+[12:02:34] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/gateways/large/metal/primalitemstructure_largegateway_metal.primalitemstructure_largegateway_metal' 2 1 0
+[12:02:34] Successfully gave items
+
+[12:06:50] Suciiiiii (Papai Smurf Negro): é
+[12:06:54] LMorningstar (Tiago): ?
+[12:07:02] Suciiiiii (Papai Smurf Negro): quero ver como vai ser o desempenho do pessoal com o peso semi-vanilla
+[12:07:20] LMorningstar (Tiago): teve q ser assim p loja funcionar
+[12:08:19] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/platforms/cliff/circle/metal/primalitemstructure_cliff_circle_metal.primalitemstructure_cliff_circle_metal' 5 1 0
+[12:08:19] Successfully gave items
+
+[12:10:36] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 100
+[12:10:36] Not enough arguments: GiveItemToSteamId <SteamID> <BlueprintPath> <Quantity> <Quality> <ForceBlueprint>
+
+[12:10:56] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 100 1 0
+[12:10:56] Successfully gave items
+
+[12:12:16] > 
+[12:12:16] Server received command but the command had no response.
+
+[12:12:22] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 100 1 0
+[12:12:22] Successfully gave items
+
+[12:13:13] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 100 1 0
+[12:13:13] Successfully gave items
+
+[12:20:41] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/gateways/large/metal/primalitemstructure_largegateway_metal.primalitemstructure_largegateway_metal' 2 1
+[12:20:41] Not enough arguments: GiveItemToSteamId <SteamID> <BlueprintPath> <Quantity> <Quality> <ForceBlueprint>
+
+[12:20:49] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/doors/gates/large/metal/primalitemstructure_largegate_metal.primalitemstructure_largegate_metal' 2 1 0
+[12:20:49] Successfully gave items
+
+[12:21:04] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/gateways/large/metal/primalitemstructure_largegateway_metal.primalitemstructure_largegateway_metal' 2 1 0
+[12:21:04] Successfully gave items
+
+[12:24:11] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 50 1 0
+[12:24:11] Successfully gave items
+
+[12:24:52] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 15 1 0
+[12:24:52] Successfully gave items
+
+[12:30:05] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/gateways/large/metal/primalitemstructure_largegateway_metal.primalitemstructure_largegateway_metal' 2 1
+[12:30:05] Not enough arguments: GiveItemToSteamId <SteamID> <BlueprintPath> <Quantity> <Quality> <ForceBlueprint>
+
+[12:30:15] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/gateways/large/metal/primalitemstructure_largegateway_metal.primalitemstructure_largegateway_metal' 5 1 0
+[12:30:15] Successfully gave items
+
+[12:30:25] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/doors/gates/large/metal/primalitemstructure_largegate_metal.primalitemstructure_largegate_metal' 5 1 0
+[12:30:25] Successfully gave items
+
+[12:32:37] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/platforms/cliff/circle/metal/primalitemstructure_cliff_circle_metal.primalitemstructure_cliff_circle_metal' 5 1 0
+[12:32:37] Successfully gave items
+
+[12:34:41] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 100
+[12:34:41] Not enough arguments: GiveItemToSteamId <SteamID> <BlueprintPath> <Quantity> <Quality> <ForceBlueprint>
+
+[12:34:50] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 100 1 0
+[12:34:50] Successfully gave items
+
+[12:35:46] Suciiiiii (Papai Smurf Negro): ae é foda
+[12:35:52] Suciiiiii (Papai Smurf Negro): vc botou pra spawnar reaper queen nos castor
+[12:36:00] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 100 1 0
+[12:36:00] Successfully gave items
+
+[12:54:36] Suciiiiii (Papai Smurf Negro): ué comprei dino n foi
+[12:55:26] Suciiiiii (Papai Smurf Negro): a foi ss
+[13:11:42] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[13:11:42] Disconnected
+[13:11:42] Connection lost ... Reconnecting
+[13:11:46] Connecting...
+[13:11:46] Connected
+[13:13:48] Player Disconnected: Suciiiiii (76561198166323148)
+[13:38:07] Lost connection to server
+[13:38:07] Disconnected
+[13:38:07] Connection lost ... Reconnecting
+[13:38:11] Connecting...
+[14:27:22] Disconnected
+[14:27:22] Connecting...
+[14:27:22] Connected
+[14:27:24] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_blackpearl.primalitemresource_blackpearl' 3000 1 0
+[14:27:24] Successfully gave items
+
+[14:35:38] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 100 1 0
+[14:35:38] Successfully gave items
+
+[14:36:58] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 35 1 0
+[14:36:58] Successfully gave items
+
+[15:01:25] Player Disconnected: LMorningstar (76561198158404941)
+[15:02:41] Lost connection to server
+[15:02:41] Disconnected
+[15:02:42] Connection lost ... Reconnecting
+[15:02:46] Connecting...
+[16:21:17] Disconnected
+[16:21:17] Connecting...
+[16:21:18] Connected
+[16:21:20] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ac/primalitemstructure_airconditionerplus.primalitemstructure_airconditionerplus' 10 1 0
+[16:21:20] Successfully gave items
+
+[16:52:43] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/hatchframes_l/stone/primalitemstructure_largehatchframe_stone.primalitemstructure_largehatchframe_stone' 3 1 0
+[16:52:43] Successfully gave items
+
+[17:19:32] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ammoboxplus/primalitemstructure_ammoboxplus.primalitemstructure_ammoboxplus' 2 1 0
+[17:19:32] Successfully gave items
+
+[17:20:22] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturret/primalitemstructure_autoturret.primalitemstructure_autoturret' 4 1 0
+[17:20:22] Successfully gave items
+
+[17:21:13] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturret/primalitemstructure_autoturret.primalitemstructure_autoturret' 12 1 0
+[17:21:13] Successfully gave items
+
+[17:22:52] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturret/primalitemstructure_autoturret.primalitemstructure_autoturret' 4 1 0
+[17:22:52] Successfully gave items
+
+[17:24:52] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 15000 1 0
+[17:24:52] Request has failed
+
+[17:25:11] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 10000 1 0
+[17:25:11] Request has failed
+
+[17:25:14] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 15000 1 0
+[17:25:14] Request has failed
+
+[17:33:53] Disconnected
+[17:33:54] Connecting...
+[17:33:54] Connected
+[17:33:56] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 5 1 0
+[17:33:56] Successfully gave items
+
+[17:35:35] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 15 1 0
+[17:35:35] Successfully gave items
+
+[17:37:15] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 15 1 0
+[17:37:15] Successfully gave items
+
+[17:38:44] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 5 1 0
+[17:38:44] Successfully gave items
+
+[17:39:58] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 50 1 0
+[17:39:58] Successfully gave items
+
+[17:43:39] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 15 1 0
+[17:43:39] Successfully gave items
+
+[17:50:58] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 15 1 0
+[17:50:58] Successfully gave items
+
+[17:51:13] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 15 1 0
+[17:51:13] Successfully gave items
+
+[17:55:04] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 15 1 0
+[17:55:04] Successfully gave items
+
+[17:59:19] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/pillars/small/stone/primalitemstructure_smallpillar_stone.primalitemstructure_smallpillar_stone' 15 1 0
+[17:59:19] Successfully gave items
+
+[17:59:58] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 15 1 0
+[17:59:58] Successfully gave items
+
+[18:29:22] > giveplayerxp
+[18:29:22] Not enough arguments: GivePlayerXP <SteamID> <Amount> <FromTribeShare> <PreventSharing>
+
+[18:29:43] > giveplayerxp 76561198158404941   3500 0 1
+[18:29:43] Successfully added experience
+
+[18:29:51] > giveplayerxp 76561198158404941   3500 0 1
+[18:29:51] Successfully added experience
+
+[18:30:07] > giveplayerxp 76561198158404941   35500 0 1
+[18:30:07] Successfully added experience
+
+[18:33:40] > giveplayerxp 76561198158404941   3500 0 1
+[18:33:40] Successfully added experience
+
+[18:36:56] Player Connected: S4d0 (76561199077683104)
+[23:08:39] Disconnected
+[23:08:39] Connecting...
+[23:08:40] Connected
+[23:08:42] > giveitemtosteamid 76561198158404941  blueprint'/game/scorchedearth/structures/oilpump/primalitemstructure_oilpump.primalitemstructure_oilpump' 1 1 0
+[23:08:42] Successfully gave items
+
+[23:11:59] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_blackpearl.primalitemresource_blackpearl' 3000 1 0
+[23:11:59] Successfully gave items
+
+[23:29:41] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_stone.primalitemresource_stone' 1 1 0
+[23:29:41] Successfully gave items
+
+[23:30:10] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_stone.primalitemresource_stone' 95000 1 0
+[23:30:10] Successfully gave items
+
+[23:31:57] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/industrialforge/primalitemstructure_industrialforgeplus.primalitemstructure_industrialforgeplus' 1 1 0
+[23:31:57] Successfully gave items
+
+[23:34:32] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/crafting/chemistrybench/primalitemstructure_chembenchplus.primalitemstructure_chembenchplus' 1 1 0
+[23:34:32] Successfully gave items
+
+[23:40:35] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_metal.primalitemresource_metal' 950 1 0
+[23:40:35] Successfully gave items
+
+[23:40:48] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_metal.primalitemresource_metal' 45650 1 0
+[23:40:48] Successfully gave items
+
+[23:45:21] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 50 1 0
+[23:45:21] Successfully gave items
+
+[23:46:40] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/pillars/small/stone/primalitemstructure_smallpillar_stone.primalitemstructure_smallpillar_stone' 15 1 0
+[23:46:40] Successfully gave items
+
+[23:47:57] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/pillars/small/wood/primalitemstructure_smallpillar_wood.primalitemstructure_smallpillar_wood' 5 1 0
+[23:47:57] Successfully gave items
+
+[23:48:34] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/pillars/small/thatch/primalitemstructure_smallpillar_thatch.primalitemstructure_smallpillar_thatch' 5 1 0
+[23:48:34] Request has failed
+
+[23:49:17] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 5 1 0
+[23:49:17] Successfully gave items
+
+[23:49:42] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 15 1 0
+[23:49:42] Successfully gave items
+
+[23:53:07] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 15 1 0
+[23:53:07] Successfully gave items
+
+[23:54:17] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 35 1 0
+[23:54:17] Successfully gave items
+

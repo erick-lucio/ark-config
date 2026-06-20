@@ -126,6 +126,31 @@
           "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
         }
       ]
+    },
+    "survival": {
+      "DefaultAmount": -1,
+      "Price": 100,
+      "Description": "Survival Kit (Parachute x5, Cooked Meat x15, Medical Brew x5)",
+      "Items": [
+        {
+          "Amount": 5,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableBuff_Parachute.PrimalItemConsumableBuff_Parachute'"
+        },
+        {
+          "Amount": 15,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat'"
+        },
+        {
+          "Amount": 5,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup'"
+        }
+      ]
     }
   },
   "ShopItems": {
@@ -2138,30 +2163,104 @@
       "Blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'",
       "Neutered": true
     },
-    "survival": {
-      "DefaultAmount": -1,
-      "Price": 100,
-      "Description": "Survival Kit (Parachute x5, Cooked Meat x15, Medical Brew x5)",
-      "Items": [
-        {
-          "Amount": 5,
-          "Quality": 0,
-          "ForceBlueprint": false,
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableBuff_Parachute.PrimalItemConsumableBuff_Parachute'"
-        },
-        {
-          "Amount": 15,
-          "Quality": 0,
-          "ForceBlueprint": false,
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat'"
-        },
-        {
-          "Amount": 5,
-          "Quality": 0,
-          "ForceBlueprint": false,
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup'"
-        }
-      ]
+    "charge_battery": {
+      "Type": "item",
+      "Description": "Charge Battery",
+      "Price": 500,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery'"
+    },
+    "preserving_salt": {
+      "Type": "item",
+      "Description": "Preserving Salt",
+      "Price": 5,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_PreservingSalt.PrimalItemResource_PreservingSalt'"
+    },
+    "propellant": {
+      "Type": "item",
+      "Description": "Propellant",
+      "Price": 25,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Propellant.PrimalItemResource_Propellant'"
+    },
+    "rare_flower": {
+      "Type": "item",
+      "Description": "Rare Flower",
+      "Price": 35,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower'"
+    },
+    "rare_mushroom": {
+      "Type": "item",
+      "Description": "Rare Mushroom",
+      "Price": 35,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom'"
+    },
+    "raw_salt": {
+      "Type": "item",
+      "Description": "Raw Salt",
+      "Price": 10,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_RawSalt.PrimalItemResource_RawSalt'"
+    },
+    "re_fertilizer": {
+      "Type": "item",
+      "Description": "Re-Fertilizer",
+      "Price": 50,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableMiracleGro.PrimalItemConsumableMiracleGro'"
+    },
+    "human_hair": {
+      "Type": "item",
+      "Description": "Human Hair",
+      "Price": 15,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hair.PrimalItemResource_Hair'"
+    },
+    "sap": {
+      "Type": "item",
+      "Description": "Sap",
+      "Price": 15,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap'"
+    },
+    "sulfur": {
+      "Type": "item",
+      "Description": "Sulfur",
+      "Price": 15,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'"
+    },
+    "giant_bee_honey": {
+      "Type": "item",
+      "Description": "Giant Bee Honey",
+      "Price": 5000,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey'"
     }
   },
   "SellItems": {

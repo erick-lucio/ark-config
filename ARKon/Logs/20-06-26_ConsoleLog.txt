@@ -1,0 +1,142 @@
+[00:44:51] Connecting...
+[00:44:51] Connected
+[00:44:57] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/hatchframes_l/stone/primalitemstructure_largehatchframe_stone.primalitemstructure_largehatchframe_stone' 15 1 0
+[00:44:57] Successfully gave items
+
+[00:46:39] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturret/primalitemstructure_autoturret.primalitemstructure_autoturret' 20 1 0
+[00:46:39] Successfully gave items
+
+[00:48:23] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturret/primalitemstructure_autoturret.primalitemstructure_autoturret' 20 1 0
+[00:48:23] Successfully gave items
+
+[00:51:39] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:39] Request has failed
+
+[00:51:45] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:45] Request has failed
+
+[00:51:47] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:47] Request has failed
+
+[00:51:48] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:48] Request has failed
+
+[00:51:54] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:54] Request has failed
+
+[00:51:55] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:55] Request has failed
+
+[00:51:56] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:56] Request has failed
+
+[00:51:57] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:57] Request has failed
+
+[00:51:58] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:58] Request has failed
+
+[00:51:59] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:51:59] Request has failed
+
+[00:52:00] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:52:00] Request has failed
+
+[00:52:01] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:52:01] Request has failed
+
+[00:52:02] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:52:02] Request has failed
+
+[01:16:34] > spawndinobp 76561198158404941 blueprint'/game/genesis/dinos/bogspider/bogspider_character_bp.bogspider_character_bp' 135 1 0 0 0 0
+[01:16:34] Successfully spawned dino
+
+[01:20:58] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 50 1 0
+[01:20:58] Successfully gave items
+
+[01:22:34] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/doors/gates/large/metal/primalitemstructure_largegate_metal.primalitemstructure_largegate_metal' 2 1 0
+[01:22:34] Successfully gave items
+
+[01:22:39] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/gateways/large/metal/primalitemstructure_largegateway_metal.primalitemstructure_largegateway_metal' 2 1 0
+[01:22:39] Successfully gave items
+
+[01:23:39] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/pillars/small/stone/primalitemstructure_smallpillar_stone.primalitemstructure_smallpillar_stone' 15 1 0
+[01:23:39] Successfully gave items
+
+[01:23:48] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 20 1 0
+[01:23:48] Successfully gave items
+
+[01:25:14] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ceilings/square/stone/primalitemstructure_ceiling_stone.primalitemstructure_ceiling_stone' 20 1 0
+[01:25:14] Successfully gave items
+
+[01:25:56] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_storagebox_huge.primalitemstructure_storagebox_huge' 35 1 0
+[01:25:56] Successfully gave items
+
+[01:38:53] Player Connected: Tenombas (76561199164844022)
+[01:44:48] Disconnected
+[01:44:48] Connection lost ... Reconnecting
+[09:06:05] Connecting...
+[09:06:06] Connected
+[09:06:08] > spawndinobp 76561198158404941 blueprint'/game/genesis/dinos/bogspider/bogspider_character_bp.bogspider_character_bp' 170 1 0 0 0 0
+[09:06:08] Successfully spawned dino
+
+[09:12:08] Player Disconnected: LMorningstar (76561198158404941)
+[10:03:01] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[10:03:01] Disconnected
+[10:03:01] Connection lost ... Reconnecting
+[10:03:05] Connecting...
+[10:03:05] Connected
+[10:06:08] Player Connected: LMorningstar (76561198158404941)
+[11:18:01] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[11:18:01] Disconnected
+[11:18:01] Connection lost ... Reconnecting
+[11:18:05] Connecting...
+[11:18:05] Connected
+[12:02:07] Player Disconnected: LMorningstar (76561198158404941)
+[13:03:01] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[13:03:01] Disconnected
+[13:03:01] Connection lost ... Reconnecting
+[13:03:05] Connecting...
+[13:03:05] Connected
+[13:14:20] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[13:14:20] Disconnected
+[13:14:20] Connection lost ... Reconnecting
+[13:14:24] Connecting...
+[13:14:24] Connected
+[13:32:59] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[13:32:59] Disconnected
+[13:32:59] Connection lost ... Reconnecting
+[13:33:03] Connecting...
+[13:33:04] Connected
+[17:21:06] Player Connected: KalangoCego (76561198311935617)
+[17:35:08] Player Connected: LMorningstar (76561198158404941)
+[17:37:21] LMorningstar (Tiago): saima da minha base
+[17:37:47] S4d0 (S4d0): caba brabo slc
+[18:02:29] LMorningstar (Tiago): kkkkkkkkkkkkkkkkkkkkkkkkkkkkk toma otario
+[18:02:45] LMorningstar (Tiago): fica ameaçando base aq vai tomar tiro
+[18:02:51] LMorningstar (Tiago): perdeu ptero atoa
+[18:03:07] KalangoCego (Bahia): Uai quem
+[18:03:09] LMorningstar (Tiago): vo te caçar
+[18:03:17] S4d0 (S4d0): agora fiquei curioso
+[18:03:25] S4d0 (S4d0): quem é o caba?
+[18:04:35] KalangoCego (Bahia): É eler
+[18:04:39] KalangoCego (Bahia): Cuidado em
+[18:05:15] LMorningstar (Tiago): independente
+[18:05:19] LMorningstar (Tiago): vai tomar
+[18:05:23] LMorningstar (Tiago): pipoco
+[18:07:53] S4d0 (S4d0): erick responde discord, preciso ser salvo, elmo 800% por tal ajuda
+[18:08:09] S4d0 (S4d0): 700*
+[18:13:27] S4d0 (S4d0): mano tiago, gostaria de fornecer ajuda a um amigo?
+[18:18:18] LMorningstar (Tiago): n, tem uma mosca aq na porta de ksa
+[18:30:00] LMorningstar (Tiago): essa loja fico bnoa, tem ate stryder
+[18:30:06] LMorningstar (Tiago): so e caro

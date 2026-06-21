@@ -47,3 +47,7 @@
 [20:25:42] Player Connected: KalangoCego (76561198311935617)
 [20:26:42] Player Connected: BRUTAL ITS OVER ... (76561198419549914)
 [20:56:42] Player Connected: Suciiiiii (76561198166323148)
+[23:21:17] Lost connection to server
+[23:21:17] Disconnected
+[23:21:17] Connection lost ... Reconnecting
+[23:21:21] Connecting...

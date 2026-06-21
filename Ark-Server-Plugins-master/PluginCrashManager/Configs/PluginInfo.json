@@ -1,6 +1,0 @@
-{
-  "FullName":"Plugin Crash Manager",
-  "Description":"Automatic save & restart after crash",
-  "Version":1.1,
-  "MinApiVersion":2.9
-}

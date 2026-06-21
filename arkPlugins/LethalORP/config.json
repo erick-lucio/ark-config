@@ -1,0 +1,290 @@
+{
+  "ORP": {
+    "Enabled": true,
+    "PVEBaseMode": false,
+    "MapWideMode": false,
+    "Range": 10,
+    "ActivationTime": 1,
+    "ActivationTimePenalty": 1,
+    "DecayTime": 10,
+    "VisibleTime": 5,
+    "Color": "Salmon",
+    "ActiveORPVisible": true,
+    "NotificationCooldown": 60,
+    "LogDestroyedStructuresInsideORP": false,
+    "InfiniteTurretAmmo": false,
+    "Permissions": {
+      "Enabled": false,
+      "PermissionNameSetorp": "setorp",
+      "PermissionNameRemoveorp": "setorp",
+      "PermissionNameShoworp": "Default"
+    },
+    "NoRaidLoggingPenaltyWindow": {
+      "Enabled": false,
+      "StartTime": 0,
+      "EndTime": 7
+    },
+    "DamageCalcs": {
+      "ReduceStructureDamageTakenByPercent": 90,
+      "ReduceCaveStructureDamageTakenByPercent": 60,
+      "ReduceDinoDamageTakenByPercent": 90,
+      "ReducePassiveDinoDamageTakenByPercent": 90,
+      "IncreaseTurretDamageByPercent": 100,
+      "IncreaseCaveTurretDamageByPercent": 50,
+      "IncreaseDinoDamageByPercent": 100
+    },
+    "PhysicalORP": {
+      "Enabled": true,
+      "Name": "ORP Power Source",
+      "Health": 200000,
+      "CanRespawn": true
+    },
+    "PlacementRestrictions": {
+      "Enabled": true,
+      "RestrictAddRemoveWhileRAIDFlagged": true,
+      "RestrictSetORPWhileRAIDProtected": true,
+      "MinimumTribeStructuresNeededToPlaceORP": 10,
+      "MinimumTribeStructuresRange": 10,
+      "NoEnemyStructuresWithinPlacementRange": 10,
+      "IgnoreEnemyStructures": [
+        "Campfire",
+        "SleepingBag",
+        "DeathItemCache"
+      ],
+      "PreventPlacementInCaveDamage": true,
+      "RestrictedLocationsRange": 10,
+      "RestrictedLocations": {
+      }
+    },
+    "IgnorePassiveDinoItems": [
+      "PrimalItemResource_SquidOil",
+      "PrimalItemResource_SnailPaste"
+    ],
+    "RemovePlacedC4OnORPDeactivation": {
+      "Enabled": true,
+      "UseRAIDFlagRangeMultiplier": false
+    }
+  },
+  "RAIDFlag": {
+    "Enabled": true,
+    "RangeMultiplier": 2.0,
+    "FlagOnDamage": true,
+    "FlagRemovedAfter": 10,
+    "TurretSoakingFlags": true,
+    "TurretSoakingFlagsBothTribes": false,
+    "NotifyTurretSoaking": false,
+    "IgnoreAllies": false,
+    "IgnoreStructures": [
+      "Campfire",
+      "SleepingBag",
+      "DeathItemCache"
+    ]
+  },
+  "Commands": {
+    "ShowORPCommand": "/showorp",
+    "SetORPCommand": "/setorp",
+    "RemoveORPCommand": "/removeorp",
+    "CheckProtectionTime": "/protection",
+    "CheckRaidTimer": "/raid",
+    "AdminShowORP": "/orp",
+    "TribeIdCommand": "/tribeid"
+  },
+  "RCONCommands": {
+    "RemoveTribeORP": "lethalorp.removeorp",
+    "RaidProtection": "lethalorp.raidprotection"
+  },
+  "Messages": {
+    "Sender": {
+      "Message": "Lethal ORP"
+    },
+    "Error": {
+      "Message": "Something went wrong!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RaidProtectionActive": {
+      "Message": "This tribe has Raid Protection active!\nAll structure damage is reduced by 100%!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RaidProtectionTimeLeft": {
+      "Message": "You have {} left on your Raid Protection!",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "RaidProtectionNotActive": {
+      "Message": "You do not have Raid Protection!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RaidFlagTimeLeft": {
+      "Message": "You have {} left on your Raid Flag!",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RaidFlagNotActive": {
+      "Message": "You are not Raid Flagged!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "NotAllowedToDamage": {
+      "Message": "You are under Raid Protection and cannot do damage at this location.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPActive": {
+      "Message": "This tribe has ORP active!\nAll structure damage is reduced by {}%!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPSet": {
+      "Message": "Your ORP has been set by {} at {}.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "ORPPermission": {
+      "Message": "You do not have the required permission to place an ORP.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPFailed": {
+      "Message": "The ORP was not able to be set at this location.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RemoveORP": {
+      "Message": "Your ORP has been removed by {}.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RequiresTribeMembership": {
+      "Message": "You must have a tribe before placing an ORP!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPPlacementRestrictedEnemyClose": {
+      "Message": "The ORP cannot be placed!\nEnemy structures too close.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPPlacementRestrictedNeedMoreStructures": {
+      "Message": "The ORP cannot be placed!\nNot enough tribe structures to protect.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPPlacementRestrictedCaveDamage": {
+      "Message": "The ORP cannot be placed!\nUnable to place where cave damage is active.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPPlacementRestrictedAdmins": {
+      "Message": "The ORP cannot be placed!\nAdmins have blocked this area from the ORP system.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "AdminOnly": {
+      "Message": "Only tribe admins can set the ORP location!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "NoORPFound": {
+      "Message": "Your tribe does not have an ORP set!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPDestroyedWillRespawn": {
+      "Message": "You have deactivated the enemies ORP for {} minutes!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "ORPDestroyed": {
+      "Message": "You have destroyed the enemy tribes ORP!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "RAIDFlagAdded": {
+      "Message": "Your tribe is now RAID flagged!\nLogging will delay your ORP activation!",
+      "Scale": 2.3,
+      "DisplayTime": 10.0,
+      "Color": "Yellow"
+    },
+    "RAIDFlagRemoved": {
+      "Message": "Your tribe is no longer RAID flagged!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "SoakingTurrets": {
+      "Message": "Your tribe's turrets are shooting a RAID flagged tribe!"
+    },
+    "CommandDisabledRAIDFlag": {
+      "Message": "Unable to use this command while RAID Flagged!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "CommandDisabledRAIDProtected": {
+      "Message": "Unable to use this command while RAID Protection Active!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "TribeLogORPDeactivated": {
+      "Message": "ORP is now Deactivated!"
+    },
+    "TribeLogORPActivated": {
+      "Message": "ORP is now Activated!"
+    },
+    "TribeLogORPActivating": {
+      "Message": "ORP activation has started! This will take {} minutes!"
+    },
+    "TribeLogORPRAIDPenalty": {
+      "Message": "Your tribe was RAID Flagged! ORP activation has been delayed for an additional {} mintutes."
+    },
+    "TribeLogORPRecharging": {
+      "Message": "Your ORP has been damaged critically and deactivated while it recharges!"
+    },
+    "TribeLogORPDestroyed": {
+      "Message": "Your ORP has been destroyed! You will need to place a new one."
+    },
+    "TribeLogORPDecayed": {
+      "Message": "Your ORP has decayed and is no longer working! You will need to place a new one."
+    },
+    "TribeLogRaidProtectionAdded": {
+      "Message": "Your tribe have been granted Raid Protection for {} hours!"
+    },
+    "TribeLogRaidProtectionRemoved": {
+      "Message": "Your Raid Protection has been removed!"
+    },
+    "DestroyedUnderORP": {
+      "Message": "Tribe structure within ORP range was destroyed!"
+    },
+    "TribeId": {
+      "Message": "Your Tribe ID is {}"
+    },
+    "AdminShowORP": {
+      "Message": "This ORP belongs to Tribe ID {}"
+    }
+  }
+}

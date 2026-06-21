@@ -1,7 +1,0 @@
-{
-  "structures":[
-    "UNetConnection",
-    "UChannel",
-	"UActorChannel"
-  ]
-}

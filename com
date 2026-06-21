@@ -16,7 +16,7 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/Foundations/Square/Stone/PrimalItemStructure_Foundation_Stone.PrimalItemStructure_Foundation_Stone' 50 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Doors/Gates/Large/Metal/PrimalItemStructure_LargeGate_Metal.PrimalItemStructure_LargeGate_Metal' 2 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/Gateways/Large/Metal/PrimalItemStructure_LargeGateway_Metal.PrimalItemStructure_LargeGateway_Metal' 2 1 0
-GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Stone/PrimalItemStructure_Ceiling_Stone.PrimalItemStructure_Ceiling_Stone' 50 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ceilings/Square/Stone/PrimalItemStructure_Ceiling_Stone.PrimalItemStructure_Ceiling_Stone' 20 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl' 3000 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl' 3 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl' 3 1 0
@@ -26,7 +26,7 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Stone/PrimalItemStructure_LargeHatchframe_Stone.PrimalItemStructure_LargeHatchframe_Stone' 3 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/AutoTurret/PrimalItemStructure_AutoTurret.PrimalItemStructure_AutoTurret' 4 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/AmmoBoxPlus/PrimalItemStructure_AmmoBoxPlus.PrimalItemStructure_AmmoBoxPlus' 2 1 0
-GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedRifleBullet.PrimalItemAmmo_AdvancedRifleBullet' 15000 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedRifleBullet.PrimalItemAmmo_AdvancedRifleBullet' 35000 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Huge.PrimalItemStructure_StorageBox_Huge' 35 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/Pillars/Small/Stone/PrimalItemStructure_SmallPillar_Stone.PrimalItemStructure_SmallPillar_Stone' 15 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/ScorchedEarth/Structures/OilPump/PrimalItemStructure_oilPump.PrimalItemStructure_oilPump' 1 1 0
@@ -39,4 +39,4 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Stru
 
 spawndinobp 76561198158404941 Blueprint'/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP' 130 1 0 0 0 0
 spawndinobp 76561198158404941 Blueprint'/Game/Genesis2/Dinos/MilkGlider/MilkGlider_Character_BP.MilkGlider_Character_BP' 100 1 0 0 0 0
-spawndinobp 76561198158404941 Blueprint'/Game/Genesis/Dinos/BogSpider/BogSpider_Character_BP.BogSpider_Character_BP' 130 1 0 0 0 0
+spawndinobp 76561198158404941 Blueprint'/Game/Genesis/Dinos/BogSpider/BogSpider_Character_BP.BogSpider_Character_BP' 170 1 0 0 0 0

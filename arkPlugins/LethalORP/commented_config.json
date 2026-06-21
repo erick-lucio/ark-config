@@ -1,0 +1,296 @@
+{
+  "ORP": {
+    "Enabled": true, //enable the ORP feature
+    "PVEBaseMode": false, //enable ORP to be always active but I would recommend much higher PlacementRestriction settings since no activation delay here
+    "MapWideMode": false, //ORP will function map wide however Range, Cavedamage, PlacementRestrictions, Physical ORP, C4 Removal and Showing ORP Bubble will all be disabled
+    "Range": 10, //how many foundations the orp will cover
+    "ActivationTime": 60, //Minutes before ORP is functional after the last tribe member logs out
+    "ActivationTimePenalty": 90, //Minutes added to the normal activation time if RAID Flagged when the ORP process kicks in
+    "DecayTime": 10, //Number of days without a tribe member logging in before ORP is removed.
+    "VisibleTime": 5, //seconds for the orp to display when /showorp is used max 20 (visible very far away)
+    "Color": "Salmon", //visual orp color (pick any color from the Colors.txt file included)
+    "ActiveORPVisible": true, //visual orp shown if ORP is active. Will check every 60 seconds if it should be shown and only show if the base is loaded in (player render range).
+    "NotificationCooldown": 60, //How many seconds between messages notifying the attacking team the enemy ORP is active
+    "LogDestroyedStructuresInsideORP": true, //Will log destroyed structures inside an ORP to assist Admins with determining Raid Protection eligibility
+    "InfiniteTurretAmmo": false, //Does not consume turret ammo when ORP is active and set to true
+    "Permissions": { //ARK Permission Integration
+      "Enabled": false, //Only allow ORP to be set if the player has the below permission
+      "PermissionNameSetorp": "setorp", //permission name to allow /setorp
+      "PermissionNameRemoveorp": "setorp", //permission name to allow /removeorp
+      "PermissionNameShoworp": "Default" //permission name to /showorp
+    },
+    "NoRaidLoggingPenaltyWindow": { //Allows for specifying reasonable timeframe where raid logging will NOT apply an activation penalty
+      "Enabled": false, //Disables raid logging penalty from 12am to 7am (based on Start and End settings below for example)
+      "StartTime": 0, //12am server time (0-23 are valid values here where 0 = 12am, 1 = 1am, 2 = 2am ... 23 = 11pm server time)
+      "EndTime": 7 //8am server time (0-23 are valid values here where 0 = 12am, 1 = 1am, 2 = 2am ... 23 = 11pm server time)
+    },
+    "DamageCalcs": {
+      "ReduceStructureDamageTakenByPercent": 90, //ORP Protection % (100 = prevents all damage) (90 allows 10% of the damage) (0 = allows all damage)
+      "ReduceCaveStructureDamageTakenByPercent": 60, //Cave specific damage reduction only available if allowed to place an ORP inside a Cave Damage area.
+      "ReduceDinoDamageTakenByPercent": 90, //ORP Protection % (100 = prevents all damage) (90 allows 10% of the damage) (0 = allows all damage)
+      "ReducePassiveDinoDamageTakenByPercent": 90, //ORP Protection % (100 = prevents all damage) (90 allows 10% of the damage) (0 = allows all damage)
+      "IncreaseTurretDamageByPercent": 100, //While ORP is active Turrets will have increased damage by percent (100 = double damage) (200 = triple damage) (0 = normal damage)
+      "IncreaseCaveTurretDamageByPercent": 50, //While ORP is active Cave Turrets will have increased damage by percent (100 = double damage) (200 = triple damage) (0 = normal damage)
+      "IncreaseDinoDamageByPercent": 100 //While ORP is active Dinos will have increased damage by percent (100 = double damage) (200 = triple damage) (0 = normal damage)
+    },
+    "PhysicalORP": { //OPTIONAL Physical structure to represent the ORP. Only needed if allowing structure damage. The structure can be destroyed which will disable the ORP.
+      "Enabled": true,
+      "Name": "ORP Power Source", //Name to display on the Physical ORP structure (Tek Forcefield)
+      "Health": 200000, //Health of the Physical ORP structure
+      "CanRespawn": true //TRUE: When the ORP Structure is destroyed it will respawn after a new activation delay and enable the ORP again. //FALSE: When the Physical ORP structure is destroyed the ORP is removed permanetly from the server and will not respawn until the tribe sets a new one.
+    },
+    "PlacementRestrictions": {
+      "Enabled": true,
+      "RestrictSetRemoveWhileRAIDFlagged": true, //Disables /setorp and /removeorp commands while being raided
+      "RestrictSetORPWhileRAIDProtected": true, //Disables /setorp while being raid protected. /removeorp will remove their protection and ORP still
+      "MinimumTribeStructuresNeededToPlaceORP": 10, //Tribe needs to have X structures before a ORP can be set
+      "MinimumTribeStructuresRange": 10, //Tribes structures inside this range are used to determine if it is a valid ORP location
+      "NoEnemyStructuresWithinPlacementRange": 10, //No enemy structures can be within this range when using /setorp
+      "IgnoreEnemyStructures": [ //Sturcutes listed here will not count as enemy structures that block placement
+        "Campfire",
+        "SleepingBag",
+        "DeathItemCache"
+      ],
+      "PreventPlacementInCaveDamage": true, //Prevent placeing inside caves that have cave damage enabled
+      "RestrictedLocationsRange": 20, //Prevent setting an orp within X foundations of the following location list
+      "RestrictedLocations": { //Locations will block player tribes from placing an ORP within range of X, Y, Z
+        "Valguero_P": {
+          "Location1": [ -135560.78125, 27648.572265625, -14148.7548828125 ],
+          "Location2": [ -100758.75, 6914.23974609375, -13989.2578125 ]
+        },
+        "Ragnarok": {
+        }
+      }
+    },
+    "IgnorePassiveDinoItems": [ //Additional Items to Ignore when calculating if a dino is eligible for Passive Damage Reduction. Consumables are automatically ignored.
+      "PrimalItemResource_SquidOil",
+      "PrimalItemResource_SnailPaste"
+    ],
+    "RemovePlacedC4OnORPDeactivation": { //When ORP is being deactivated remove all placed C4 inside the ORP range.
+      "Enabled": true, //Enables feature
+      "UseRAIDFlagRangeMultiplier": false //Use RAID Flag range instead
+    }
+  },
+  "RAIDFlag": {
+    "Enabled": true, //enables RAID checks
+    "RangeMultiplier": 2.0, //Used to calculate max detection range ORP Range "10" (20 foundations across OR 6000 ingame units) with a RangeMultiplier "2.0" will double the check range for RAID (40 foundations across OR 12000 ingame units).
+    "FlagOnDamage": true, //true will RAID flag both tribes for any damage inside the RAID range. //false will RAID flag both tribes if player/dino/structure dies inside the RAID range.
+    "FlagRemovedAfter": 10, //After 10 minutes the RAID flag will be removed
+    "TurretSoakingFlags": true, //True will cause a tribe being shot by turrets inside the ORP RAIDFlag range to be RAID Flagged.
+    "TurretSoakingFlagsBothTribes": false, //True will cause both tribes to be RAID flagged. False will only flag the soaking tribe.
+    "NotifyTurretSoaking": false, //Add tribe log entry to the tribe who's turrets are being soaked.
+    "IgnoreAllies": false, //True will not RAID flag if the player is an Alliance member
+    "IgnoreStructures": [ //Items in this list will be ignored if damaged/destroyed for RAID flagging
+      "Campfire",
+      "SleepingBag",
+      "DeathItemCache"
+    ]
+  },
+  "Commands": {
+    "ShowORPCommand": "/showorp", //command to show visual orp range
+    "SetORPCommand": "/setorp", //command to set tribe orp
+    "RemoveORPCommand": "/removeorp", //command to remove the tribe orp
+    "CheckProtectionTime": "/protection", //command to display remaining raid protection time
+    "CheckRaidTimer": "/raid", //command to display remaining raid cooldown timer
+    "AdminShowORP": "/orp", //command to allow admin to show an ORP bubble when inside an ORP
+    "TribeIdCommand": "/tribeid" //command to allow tribes to get their tribe id
+  },
+  "RCONCommands": {
+    "RemoveTribeORP": "lethalorp.removeorp", //Usage "lethalorp.removeorp 1234567980" this will remove a tribe's ORP with TribeId 1234567890
+    "RaidProtection": "lethalorp.raidprotection" //Usage "lethalorp.raidprotection <add/remove> <tribeid> <hours>" i.e. "lethalorp.raidprotection add 1234567890 12" will add 12 hours of protection to TribeId 1234567890 and "lethalorp.raidprotection remove 1234567890 0" will remove the protection early.
+  },
+  "Messages": {
+    "Sender": {
+      "Message": "Lethal ORP"
+    },
+    "Error": {
+      "Message": "Something went wrong!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RaidProtectionActive": {
+      "Message": "This tribe has Raid Protection active!\nAll structure damage is reduced by 100%!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RaidProtectionTimeLeft": {
+      "Message": "You have {} left on your Raid Protection!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "RaidProtectionNotActive": {
+      "Message": "You do not have Raid Protection!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RaidFlagTimeLeft": {
+      "Message": "You have {} left on your Raid Flag!",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RaidFlagNotActive": {
+      "Message": "You are not Raid Flagged!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "NotAllowedToDamage": {
+      "Message": "You are under Raid Protection and cannot do damage at this location.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPActive": {
+      "Message": "This tribe has ORP active!\nAll structure damage is reduced by {}%!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPSet": {
+      "Message": "Your ORP has been set by {} at {}.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "ORPPermission": {
+      "Message": "You do not have the required permission to place an ORP.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPFailed": {
+      "Message": "The ORP was not able to be set at this location.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RemoveORP": {
+      "Message": "Your ORP has been removed by {}.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "RequiresTribeMembership": {
+      "Message": "You must have a tribe before placing an ORP!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPPlacementRestrictedEnemyClose": {
+      "Message": "The ORP cannot be placed!\nEnemy structures too close.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPPlacementRestrictedNeedMoreStructures": {
+      "Message": "The ORP cannot be placed!\nNot enough tribe structures to protect.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPPlacementRestrictedCaveDamage": {
+      "Message": "The ORP cannot be placed!\nUnable to place where cave damage is active.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPPlacementRestrictedAdmins": {
+      "Message": "The ORP cannot be placed!\nAdmins have blocked this area from the ORP system.",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "AdminOnly": {
+      "Message": "Only tribe admins can set the ORP location!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "NoORPFound": {
+      "Message": "Your tribe does not have an ORP set!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ORPDestroyedWillRespawn": {
+      "Message": "You have deactivated the enemies ORP for {} minutes!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "ORPDestroyed": {
+      "Message": "You have destroyed the enemy tribes ORP!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "RAIDFlagAdded": {
+      "Message": "Your tribe is now RAID flagged!\nLogging will delay your ORP activation!",
+      "Scale": 2.3,
+      "DisplayTime": 10.0,
+      "Color": "Yellow"
+    },
+    "RAIDFlagRemoved": {
+      "Message": "Your tribe is no longer RAID flagged!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "SoakingTurrets": {
+      "Message": "Your tribe's turrets are shooting a RAID flagged tribe!"
+    },
+    "CommandDisabledRAIDFlag": {
+      "Message": "Unable to use this command while RAID Flagged!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "CommandDisabledRAIDProtected": {
+      "Message": "Unable to use this command while RAID Protection Active!",
+      "Scale": 2.3,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "TribeLogORPDeactivated": {
+      "Message": "ORP is now Deactivated!"
+    },
+    "TribeLogORPActivated": {
+      "Message": "ORP is now Activated!"
+    },
+    "TribeLogORPActivating": {
+      "Message": "ORP activation has started! This will take {} minutes!"
+    },
+    "TribeLogORPRAIDPenalty": {
+      "Message": "Your tribe was RAID Flagged! ORP activation has been delayed for an additional {} mintutes."
+    },
+    "TribeLogORPRecharging": {
+      "Message": "Your ORP has been damaged critically and deactivated while it recharges!"
+    },
+    "TribeLogORPDestroyed": {
+      "Message": "Your ORP has been destroyed! You will need to place a new one."
+    },
+    "TribeLogORPDecayed": {
+      "Message": "Your ORP has decayed and is no longer working! You will need to place a new one."
+    },
+    "TribeLogRaidProtectionAdded": {
+      "Message": "Your tribe have been granted Raid Protection for {} hours!"
+    },
+    "TribeLogRaidProtectionRemoved": {
+      "Message": "Your Raid Protection has been removed!"
+    },
+    "DestroyedUnderORP": {
+      "Message": "Tribe structure within ORP range was destroyed!"
+    },
+    "TribeId": {
+      "Message": "Your Tribe ID is {}"
+    },
+    "AdminShowORP": {
+      "Message": "This ORP belongs to Tribe ID {}"
+    }
+  }
+}

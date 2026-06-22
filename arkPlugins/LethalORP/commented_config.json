@@ -3,7 +3,7 @@
     "Enabled": true, //enable the ORP feature
     "PVEBaseMode": false, //enable ORP to be always active but I would recommend much higher PlacementRestriction settings since no activation delay here
     "MapWideMode": false, //ORP will function map wide however Range, Cavedamage, PlacementRestrictions, Physical ORP, C4 Removal and Showing ORP Bubble will all be disabled
-    "Range": 10, //how many foundations the orp will cover
+    "Range": 25, //how many foundations the orp will cover
     "ActivationTime": 60, //Minutes before ORP is functional after the last tribe member logs out
     "ActivationTimePenalty": 90, //Minutes added to the normal activation time if RAID Flagged when the ORP process kicks in
     "DecayTime": 10, //Number of days without a tribe member logging in before ORP is removed.
@@ -25,16 +25,16 @@
       "EndTime": 7 //8am server time (0-23 are valid values here where 0 = 12am, 1 = 1am, 2 = 2am ... 23 = 11pm server time)
     },
     "DamageCalcs": {
-      "ReduceStructureDamageTakenByPercent": 90, //ORP Protection % (100 = prevents all damage) (90 allows 10% of the damage) (0 = allows all damage)
-      "ReduceCaveStructureDamageTakenByPercent": 60, //Cave specific damage reduction only available if allowed to place an ORP inside a Cave Damage area.
+      "ReduceStructureDamageTakenByPercent": 95, //ORP Protection % (100 = prevents all damage) (90 allows 10% of the damage) (0 = allows all damage)
+      "ReduceCaveStructureDamageTakenByPercent": 95, //Cave specific damage reduction only available if allowed to place an ORP inside a Cave Damage area.
       "ReduceDinoDamageTakenByPercent": 90, //ORP Protection % (100 = prevents all damage) (90 allows 10% of the damage) (0 = allows all damage)
       "ReducePassiveDinoDamageTakenByPercent": 90, //ORP Protection % (100 = prevents all damage) (90 allows 10% of the damage) (0 = allows all damage)
       "IncreaseTurretDamageByPercent": 100, //While ORP is active Turrets will have increased damage by percent (100 = double damage) (200 = triple damage) (0 = normal damage)
-      "IncreaseCaveTurretDamageByPercent": 50, //While ORP is active Cave Turrets will have increased damage by percent (100 = double damage) (200 = triple damage) (0 = normal damage)
+      "IncreaseCaveTurretDamageByPercent": 90, //While ORP is active Cave Turrets will have increased damage by percent (100 = double damage) (200 = triple damage) (0 = normal damage)
       "IncreaseDinoDamageByPercent": 100 //While ORP is active Dinos will have increased damage by percent (100 = double damage) (200 = triple damage) (0 = normal damage)
     },
     "PhysicalORP": { //OPTIONAL Physical structure to represent the ORP. Only needed if allowing structure damage. The structure can be destroyed which will disable the ORP.
-      "Enabled": true,
+      "Enabled": false,
       "Name": "ORP Power Source", //Name to display on the Physical ORP structure (Tek Forcefield)
       "Health": 200000, //Health of the Physical ORP structure
       "CanRespawn": true //TRUE: When the ORP Structure is destroyed it will respawn after a new activation delay and enable the ORP again. //FALSE: When the Physical ORP structure is destroyed the ORP is removed permanetly from the server and will not respawn until the tribe sets a new one.
@@ -43,8 +43,8 @@
       "Enabled": true,
       "RestrictSetRemoveWhileRAIDFlagged": true, //Disables /setorp and /removeorp commands while being raided
       "RestrictSetORPWhileRAIDProtected": true, //Disables /setorp while being raid protected. /removeorp will remove their protection and ORP still
-      "MinimumTribeStructuresNeededToPlaceORP": 10, //Tribe needs to have X structures before a ORP can be set
-      "MinimumTribeStructuresRange": 10, //Tribes structures inside this range are used to determine if it is a valid ORP location
+      "MinimumTribeStructuresNeededToPlaceORP": 55, //Tribe needs to have X structures before a ORP can be set
+      "MinimumTribeStructuresRange": 50, //Tribes structures inside this range are used to determine if it is a valid ORP location
       "NoEnemyStructuresWithinPlacementRange": 10, //No enemy structures can be within this range when using /setorp
       "IgnoreEnemyStructures": [ //Sturcutes listed here will not count as enemy structures that block placement
         "Campfire",

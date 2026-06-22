@@ -281,6 +281,31 @@
           "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_HealSoup.PrimalItemConsumable_HealSoup'"
         }
       ]
+    },
+    "taming_kit": {
+      "DefaultAmount": -1,
+      "Price": 100,
+      "Description": "Taming Kit (Crossbow, 25 Tranq Arrows, 1 Cryopod)",
+      "Items": [
+        {
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow'"
+        },
+        {
+          "Amount": 25,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq'"
+        },
+        {
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'"
+        }
+      ]
     }
   },
   "ShopItems": {
@@ -2301,9 +2326,39 @@
       "Quality": 0,
       "ForceBlueprint": false,
       "Blueprint": "Blueprint'/Game/Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery'"
+    },
+    "mining_drill": {
+      "Type": "item",
+      "Description": "Mining Drill",
+      "Price": 65000,
+      "Amount": 1,
+      "Quality": 0,
+      "ForceBlueprint": false,
+      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'"
     }
   },
   "SellItems": {
+    "corrupted_nodule_1": {
+      "Type": "item",
+      "Description": "Corrupted Nodule (x1)",
+      "Price": 5000,
+      "Amount": 1,
+      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptHeart.PrimalItemResource_CorruptHeart'"
+    },
+    "corrupted_nodule_10": {
+      "Type": "item",
+      "Description": "Corrupted Nodule (x10)",
+      "Price": 65000,
+      "Amount": 10,
+      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptHeart.PrimalItemResource_CorruptHeart'"
+    },
+    "corrupted_nodule_100": {
+      "Type": "item",
+      "Description": "Corrupted Nodule (x100)",
+      "Price": 825000,
+      "Amount": 100,
+      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptHeart.PrimalItemResource_CorruptHeart'"
+    },
     "metal": {
       "Type": "item",
       "Description": "Stone (1000x)",

@@ -4,8 +4,8 @@
     "PVEBaseMode": false,
     "MapWideMode": false,
     "Range": 10,
-    "ActivationTime": 1,
-    "ActivationTimePenalty": 1,
+    "ActivationTime": 25,
+    "ActivationTimePenalty": 120,
     "DecayTime": 10,
     "VisibleTime": 5,
     "Color": "Salmon",
@@ -36,7 +36,7 @@
     "PhysicalORP": {
       "Enabled": true,
       "Name": "ORP Power Source",
-      "Health": 200000,
+      "Health": 9900000,
       "CanRespawn": true
     },
     "PlacementRestrictions": {

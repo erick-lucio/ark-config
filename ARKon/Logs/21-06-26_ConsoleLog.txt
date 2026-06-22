@@ -1,0 +1,25 @@
+[22:36:03] Connecting...
+[22:36:03] Connected
+[22:36:05] > scriptcommand showwaveinfo
+[22:36:05] Server received command but the command had no response.
+
+[22:36:13] > scriptcommand startdinoraids
+[22:36:13] Server received command but the command had no response.
+
+[22:36:17] > startdinoraids
+[22:36:17] Server received command but the command had no response.
+
+[22:36:23] > cheat scriptcommand startdinoraids
+[22:36:23] Server received command but the command had no response.
+
+[22:44:18] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[22:44:18] Disconnected
+[22:44:18] Connection lost ... Reconnecting
+[22:44:22] Connecting...
+[22:44:23] Connected
+[22:58:25] Player Connected: LMorningstar (76561198158404941)
+[23:54:05] Lost connection to server
+[23:54:05] Disconnected
+[23:54:05] Connection lost ... Reconnecting

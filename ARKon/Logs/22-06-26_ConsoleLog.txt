@@ -1,0 +1,74 @@
+[00:26:04] Disconnected
+[00:26:05] Connecting...
+[00:26:05] Connected
+[00:26:07] > giveplayerxp
+[00:26:07] Not enough arguments: GivePlayerXP <SteamID> <Amount> <FromTribeShare> <PreventSharing>
+
+[00:26:27] > giveplayerxp 76561198158404941 9999999 0 1
+[00:26:27] Successfully added experience
+
+[00:29:08] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_gasoline.primalitemresource_gasoline' 5001 1 0
+[00:29:08] Successfully gave items
+
+[00:30:13] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 15 1 0
+[00:30:13] Successfully gave items
+
+[00:33:06] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 15 1 0
+[00:33:06] Successfully gave items
+
+[00:33:07] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 15 1 0
+[00:33:07] Successfully gave items
+
+[00:35:18] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 15 1 0
+[00:35:18] Successfully gave items
+
+[00:37:37] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 9999 1 0
+[00:37:37] Request has failed
+
+[00:37:42] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:37:42] Request has failed
+
+[00:37:43] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:37:43] Request has failed
+
+[00:37:45] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:37:45] Request has failed
+
+[00:37:46] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:37:46] Request has failed
+
+[00:37:47] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:37:47] Request has failed
+
+[00:39:04] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:04] Request has failed
+
+[00:39:05] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:05] Request has failed
+
+[00:39:06] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:06] Request has failed
+
+[00:39:07] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:07] Request has failed
+
+[00:39:07] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:07] Request has failed
+
+[00:39:08] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:09] Request has failed
+
+[00:39:09] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:09] Request has failed
+
+[00:39:11] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:11] Request has failed
+
+[00:39:12] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:12] Request has failed
+
+[00:39:12] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[00:39:12] Request has failed
+
+[00:44:58] Disconnected
+[00:44:58] Connection lost ... Reconnecting

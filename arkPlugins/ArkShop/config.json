@@ -282,6 +282,25 @@
         }
       ]
     },
+    "drill": {
+      "DefaultAmount": -1,
+      "Price": 65000,
+      "Description": "Drill Kit (Mining Drill + 500 Gasoline)",
+      "Items": [
+        {
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'"
+        },
+        {
+          "Amount": 500,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'"
+        }
+      ]
+    },
     "taming_kit": {
       "DefaultAmount": -1,
       "Price": 100,
@@ -311,13 +330,23 @@
   "ShopItems": {
     "strider": {
       "Type": "dino",
-      "Description": "Strider Mining Drill/Saddlebags",
+      "Description": "TekStrider Mining Drill/Saddlebags",
       "Level": 100,
       "Price": 1000000,
       "Blueprint": "Blueprint'/Game/Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP'",
       "StriderHead": 0,
       "StriderChest": 3,
       "PreventCryo": true,
+      "Neutered": true
+    },
+    "stryder_random": {
+      "Type": "dino",
+      "Description": "TekStrider with random head and chest attachments",
+      "Level": 150,
+      "Price": 100000,
+      "Blueprint": "Blueprint'/Game/Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP'",
+      "StryderHead": -1, 
+      "StryderChest": -1, 
       "Neutered": true
     },
     "gacha": {
@@ -2326,15 +2355,6 @@
       "Quality": 0,
       "ForceBlueprint": false,
       "Blueprint": "Blueprint'/Game/Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery'"
-    },
-    "mining_drill": {
-      "Type": "item",
-      "Description": "Mining Drill",
-      "Price": 65000,
-      "Amount": 1,
-      "Quality": 0,
-      "ForceBlueprint": false,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill'"
     }
   },
   "SellItems": {

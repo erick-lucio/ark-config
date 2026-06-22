@@ -32,6 +32,9 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Stru
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/ScorchedEarth/Structures/OilPump/PrimalItemStructure_oilPump.PrimalItemStructure_oilPump' 1 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone' 1 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/Walls/Metal/PrimalItemStructure_Wall_Metal.PrimalItemStructure_Wall_Metal' 21 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline' 5001 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/AutoTurretHeavy/PrimalItemStructure_AutoTurret_Heavy.PrimalItemStructure_AutoTurret_Heavy' 15 1 0
+
 
 
 

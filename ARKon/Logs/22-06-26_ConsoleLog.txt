@@ -72,3 +72,614 @@
 
 [00:44:58] Disconnected
 [00:44:58] Connection lost ... Reconnecting
+[14:16:47] Connecting...
+[14:16:48] Connected
+[14:16:50] AdminCmd: gcm (PlayerName: LMorningstar, ARKID: 181235605, SteamID: 76561198158404941)
+[14:16:50] AdminCmd: scriptcommand simplespawners (PlayerName: LMorningstar, ARKID: 181235605, SteamID: 76561198158404941)
+[14:16:50] AdminCmd: gcm (PlayerName: LMorningstar, ARKID: 181235605, SteamID: 76561198158404941)
+[14:16:50] AdminCmd: scriptcommand simplespawners (PlayerName: LMorningstar, ARKID: 181235605, SteamID: 76561198158404941)
+[14:16:50] AdminCmd: gcm (PlayerName: LMorningstar, ARKID: 181235605, SteamID: 76561198158404941)
+[14:17:11] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_gasoline.primalitemresource_gasoline' 501 1 0
+[14:17:11] Successfully gave items
+
+[14:29:59] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 50 1 0
+[14:29:59] Successfully gave items
+
+[14:33:03] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/armor/saddles/primalitemarmor_megatheriumsaddle.primalitemarmor_megatheriumsaddle' 1 100 0
+[14:33:03] Successfully gave items
+
+[14:33:11] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/megatherium/megatherium_character_bp.megatherium_character_bp' 170 1 0 0 0 0
+[14:33:11] Successfully spawned dino
+
+[14:48:01] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 500 1 0
+[14:48:01] Successfully gave items
+
+[14:50:21] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ac/primalitemstructure_airconditionerplus.primalitemstructure_airconditionerplus' 40 1 0
+[14:50:21] Successfully gave items
+
+[14:52:15] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ac/primalitemstructure_airconditionerplus.primalitemstructure_airconditionerplus' 40 1 0
+[14:52:15] Successfully gave items
+
+[14:55:46] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ac/primalitemstructure_airconditionerplus.primalitemstructure_airconditionerplus' 40 1 0
+[14:55:46] Successfully gave items
+
+[15:41:41] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/vault/primalitemstructure_vaultplus.primalitemstructure_vaultplus' 11 1 0
+[15:41:41] Successfully gave items
+
+[15:41:54] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/vault/primalitemstructure_vaultplus.primalitemstructure_vaultplus' 11 1 0
+[15:41:54] Successfully gave items
+
+[15:43:10] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 500 1 0
+[15:43:10] Successfully gave items
+
+[15:45:56] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ramps/stone/primalitemstructure_ramp_stonesp.primalitemstructure_ramp_stonesp' 21 1 0
+[15:45:56] Successfully gave items
+
+[15:58:46] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 500 1 0
+[15:58:46] Successfully gave items
+
+[16:00:50] > unlockengram
+[16:00:50] Not enough arguments: UnlockEngram <SteamID> <BlueprintPath>
+
+[16:00:50] Player Connected: Tenombas (76561199164844022)
+[16:02:55] > unlockengram 76561198158404941  "blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_tekgenerator.primalitemstructure_tekgenerator'"
+[16:02:55] Successfully unlocked engram
+
+[16:03:09] > unlockengram 76561198158404941  "blueprint'/game/primalearth/coreblueprints/items/structures/misc/primalitemstructure_tekreplicator.primalitemstructure_tekreplicator'"
+[16:03:09] Successfully unlocked engram
+
+[16:05:40] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/generatortek/primalitemstructure_generatortek.primalitemstructure_generatortek' 2 1 0
+[16:05:40] Successfully gave items
+
+[16:06:40] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_element.primalitemresource_element' 150 1 0
+[16:06:40] Successfully gave items
+
+[16:08:00] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 15 1 0
+[16:08:00] Successfully gave items
+
+[16:09:17] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ammoboxplus/primalitemstructure_ammoboxplus.primalitemstructure_ammoboxplus' 2 1 0
+[16:09:17] Successfully gave items
+
+[16:10:01] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:01] Request has failed
+
+[16:10:02] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:02] Request has failed
+
+[16:10:03] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:03] Request has failed
+
+[16:10:04] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:04] Request has failed
+
+[16:10:05] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:05] Request has failed
+
+[16:10:06] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:06] Request has failed
+
+[16:10:07] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:07] Request has failed
+
+[16:10:08] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:08] Request has failed
+
+[16:10:09] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:09] Request has failed
+
+[16:10:11] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:11] Request has failed
+
+[16:10:12] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:12] Request has failed
+
+[16:10:13] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:13] Request has failed
+
+[16:10:14] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:14] Request has failed
+
+[16:10:15] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:15] Request has failed
+
+[16:10:16] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:16] Request has failed
+
+[16:10:17] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[16:10:17] Request has failed
+
+[16:48:20] LMorningstar (Tiago): boa tarde amigo
+[16:48:24] LMorningstar (Tiago): amigos
+[16:48:28] Tenombas (Tarantula): boa tarde
+[16:48:44] Tenombas (Tarantula): tal de sado
+[16:48:50] Tenombas (Tarantula): achou sua base amigo
+[16:48:58] Tenombas (Tarantula): dentro da cave
+[16:49:06] LMorningstar (Tiago): que isso amigo
+[16:49:16] Tenombas (Tarantula): mas ele é pve
+[16:49:24] Tenombas (Tarantula): mas esta espalhando a informação
+[16:49:54] LMorningstar (Tiago): isso n tem problema
+[16:49:58] LMorningstar (Tiago): mais ele e foda
+[16:50:12] LMorningstar (Tiago): fica falando q e pve p ficar imune a tudo enquanto faz oq quiser
+[16:50:20] LMorningstar (Tiago): ai e facil ne
+[16:50:26] Tenombas (Tarantula): foda kkkk
+[16:51:12] LMorningstar (Tiago): achar base e so questao de tempo, o mapa e limitado
+[16:52:06] LMorningstar (Tiago): mais ta suave, to brincando de the sims tb
+[16:52:23] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[16:52:24] Disconnected
+[16:52:24] Connection lost ... Reconnecting
+[16:52:28] Connecting...
+[16:52:28] Disconnected
+[16:52:29] Connecting...
+[16:52:37] Disconnected
+[16:52:38] Connecting...
+[16:52:38] Connected
+[16:52:40] Tenombas (Tarantula): kkkk
+[16:52:46] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 500 1 0
+[16:52:46] Successfully gave items
+
+[16:55:06] LMorningstar (Tiago): ja veio ver minha base amigo?
+[16:55:16] Tenombas (Tarantula): n
+[16:55:24] Tenombas (Tarantula): nem fiz a minha ainda
+[17:09:59] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[17:09:59] Successfully gave items
+
+[17:12:35] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[17:12:35] Successfully gave items
+
+[17:21:56] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[17:21:56] Successfully gave items
+
+[17:23:39] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[17:23:39] Successfully gave items
+
+[17:25:10] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[17:25:10] Successfully gave items
+
+[17:31:04] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/ramps/stone/primalitemstructure_ramp_stonesp.primalitemstructure_ramp_stonesp' 21 1 0
+[17:31:04] Successfully gave items
+
+[17:35:01] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[17:35:01] Successfully gave items
+
+[17:44:49] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_element.primalitemresource_element' 150 1 0
+[17:44:49] Successfully gave items
+
+[17:45:11] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ammoboxplus/primalitemstructure_ammoboxplus.primalitemstructure_ammoboxplus' 2 1 0
+[17:45:11] Successfully gave items
+
+[17:45:27] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:27] Request has failed
+
+[17:45:28] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:28] Request has failed
+
+[17:45:28] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:28] Request has failed
+
+[17:45:30] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:30] Request has failed
+
+[17:45:31] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:31] Request has failed
+
+[17:45:31] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:32] Request has failed
+
+[17:45:32] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:32] Request has failed
+
+[17:45:33] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:33] Request has failed
+
+[17:45:34] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:34] Request has failed
+
+[17:45:35] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[17:45:35] Request has failed
+
+[17:46:00] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 15 1 0
+[17:46:00] Successfully gave items
+
+[17:50:43] Player Disconnected: Tenombas (76561199164844022)
+[17:50:43] Player Disconnected: LMorningstar (76561198158404941)
+[17:53:11] Disconnected
+[17:53:11] Connecting...
+[17:53:12] Connected
+[17:55:34] Lost connection to server
+[17:55:34] Disconnected
+[17:55:34] Connection lost ... Reconnecting
+[17:55:38] Connecting...
+[17:55:40] Disconnected
+[17:55:40] Connection lost ... Reconnecting
+[18:30:06] Connecting...
+[18:30:06] Connected
+[18:32:08] Player Connected: S4d0 (76561199077683104)
+[18:34:09] Player Connected: LMorningstar (76561198158404941)
+[18:40:02] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:40:02] Successfully gave items
+
+[18:42:43] > sendscriptcommand
+[18:42:43] Not enough arguments: SendScriptCommand <Command>
+
+[18:43:00] > sendscriptcommand scriptcommand timetillnextraid
+[18:43:00] Successfully executed
+
+[18:43:09] > sendscriptcommand timetillnextraid
+[18:43:09] Successfully executed
+
+[18:43:40] > sendscriptcommand startdinoraids
+[18:43:40] Successfully executed
+
+[18:44:28] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:44:28] Successfully gave items
+
+[18:46:00] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:46:00] Successfully gave items
+
+[18:48:43] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:48:43] Successfully gave items
+
+[18:50:38] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:50:38] Successfully gave items
+
+[18:52:02] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:52:02] Successfully gave items
+
+[18:53:28] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:53:28] Successfully gave items
+
+[18:55:13] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:55:13] Successfully gave items
+
+[18:56:22] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:56:22] Successfully gave items
+
+[18:59:22] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[18:59:22] Successfully gave items
+
+[19:01:21] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/foundations/square/stone/primalitemstructure_foundation_stone.primalitemstructure_foundation_stone' 150 1 0
+[19:01:21] Successfully gave items
+
+[19:05:28] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/hatchframes_xl/metal/primalitemstructure_xlhatchframe_metal.primalitemstructure_xlhatchframe_metal' 15 1 0
+[19:05:28] Successfully gave items
+
+[19:08:48] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/hatchframes_xl/metal/primalitemstructure_xlhatchframe_metal.primalitemstructure_xlhatchframe_metal' 25 1 0
+[19:08:48] Successfully gave items
+
+[19:10:27] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 35 1 0
+[19:10:27] Successfully gave items
+
+[19:13:07] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 35 1 0
+[19:13:07] Successfully gave items
+
+[19:16:57] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 15 1 0
+[19:16:57] Successfully gave items
+
+[19:17:46] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/generatortek/primalitemstructure_generatortek.primalitemstructure_generatortek' 3 1 0
+[19:17:46] Successfully gave items
+
+[19:18:04] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ammoboxplus/primalitemstructure_ammoboxplus.primalitemstructure_ammoboxplus' 3 1 0
+[19:18:04] Successfully gave items
+
+[19:19:31] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_element.primalitemresource_element' 1000 1 0
+[19:19:31] Successfully gave items
+
+[19:19:53] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:53] Request has failed
+
+[19:19:53] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:53] Request has failed
+
+[19:19:54] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:54] Request has failed
+
+[19:19:55] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:55] Request has failed
+
+[19:19:55] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:55] Request has failed
+
+[19:19:56] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:56] Request has failed
+
+[19:19:57] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:57] Request has failed
+
+[19:19:57] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:57] Request has failed
+
+[19:19:58] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:58] Request has failed
+
+[19:19:59] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:19:59] Request has failed
+
+[19:20:00] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:20:00] Request has failed
+
+[19:20:00] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:20:00] Request has failed
+
+[19:20:01] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:20:01] Request has failed
+
+[19:20:02] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:20:02] Request has failed
+
+[19:20:02] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:20:02] Request has failed
+
+[19:22:20] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 35000 1 0
+[19:22:20] Successfully gave items
+
+[19:22:27] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 95000 1 0
+[19:22:27] Successfully gave items
+
+[19:25:52] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturrettek/primalitemstructure_autoturrettek.primalitemstructure_autoturrettek' 35 1 0
+[19:25:52] Successfully gave items
+
+[19:28:22] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturrettek/primalitemstructure_autoturrettek.primalitemstructure_autoturrettek' 35 1 0
+[19:28:22] Successfully gave items
+
+[19:29:09] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_element.primalitemresource_element' 1000 1 0
+[19:29:09] Successfully gave items
+
+[19:29:22] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 95000 1 0
+[19:29:22] Successfully gave items
+
+[19:29:24] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 95000 1 0
+[19:29:24] Successfully gave items
+
+[19:29:32] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:32] Request has failed
+
+[19:29:33] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:33] Request has failed
+
+[19:29:34] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:34] Request has failed
+
+[19:29:35] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:35] Request has failed
+
+[19:29:36] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:36] Request has failed
+
+[19:29:37] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:37] Request has failed
+
+[19:29:38] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:38] Request has failed
+
+[19:29:39] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:39] Request has failed
+
+[19:29:40] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:40] Request has failed
+
+[19:29:41] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:41] Request has failed
+
+[19:29:42] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:29:42] Request has failed
+
+[19:32:52] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_element.primalitemresource_element' 1000 1 0
+[19:32:52] Successfully gave items
+
+[19:33:06] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 95000 1 0
+[19:33:06] Successfully gave items
+
+[19:33:07] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 95000 1 0
+[19:33:07] Successfully gave items
+
+[19:33:11] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:11] Request has failed
+
+[19:33:12] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:12] Request has failed
+
+[19:33:12] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:12] Request has failed
+
+[19:33:13] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:13] Request has failed
+
+[19:33:14] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:14] Request has failed
+
+[19:33:15] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:15] Request has failed
+
+[19:33:16] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:16] Request has failed
+
+[19:33:16] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:16] Request has failed
+
+[19:33:18] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:18] Request has failed
+
+[19:33:18] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:18] Request has failed
+
+[19:33:19] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:19] Request has failed
+
+[19:33:20] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:20] Request has failed
+
+[19:33:21] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[19:33:21] Request has failed
+
+[19:33:38] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturrettek/primalitemstructure_autoturrettek.primalitemstructure_autoturrettek' 15 1 0
+[19:33:38] Successfully gave items
+
+[19:37:38] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/platforms/cliff/circle/metal/primalitemstructure_cliff_circle_metal.primalitemstructure_cliff_circle_metal' 3 1 0
+[19:37:38] Successfully gave items
+
+[20:08:40] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/crafting/replicator/primalitemstructure_replicatorplus.primalitemstructure_replicatorplus' 1 1 0
+[20:08:40] Successfully gave items
+
+[20:25:16] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/pillars/small/metal/primalitemstructure_smallpillar_metal.primalitemstructure_smallpillar_metal' 15 1 0
+[20:25:16] Successfully gave items
+
+[20:33:41] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalpillar.primalitemstructure_metalpillar' 25 1 0
+[20:33:41] Successfully gave items
+
+[20:35:39] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalpillar.primalitemstructure_metalpillar' 45 1 0
+[20:35:39] Successfully gave items
+
+[20:36:47] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalpillar.primalitemstructure_metalpillar' 75 1 0
+[20:36:47] Successfully gave items
+
+[20:38:13] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/hatchframes_xl/metal/primalitemstructure_xlhatchframe_metal.primalitemstructure_xlhatchframe_metal' 15 1 0
+[20:38:13] Successfully gave items
+
+[20:39:10] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalceiling.primalitemstructure_metalceiling' 35 1 0
+[20:39:10] Successfully gave items
+
+[20:41:01] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/structures/metal/primalitemstructure_metalceiling.primalitemstructure_metalceiling' 35 1 0
+[20:41:01] Successfully gave items
+
+[20:43:28] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/generatortek/primalitemstructure_generatortek.primalitemstructure_generatortek' 3 1 0
+[20:43:28] Successfully gave items
+
+[20:43:57] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/ammoboxplus/primalitemstructure_ammoboxplus.primalitemstructure_ammoboxplus' 3 1 0
+[20:43:57] Successfully gave items
+
+[20:44:48] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_element.primalitemresource_element' 1000 1 0
+[20:44:48] Successfully gave items
+
+[20:45:48] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 99000 1 0
+[20:45:48] Successfully gave items
+
+[20:45:53] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 99000 1 0
+[20:45:54] Successfully gave items
+
+[20:45:54] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_elementshard.primalitemresource_elementshard' 99000 1 0
+[20:45:54] Successfully gave items
+
+[20:46:12] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:12] Request has failed
+
+[20:46:14] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:14] Request has failed
+
+[20:46:14] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:14] Request has failed
+
+[20:46:15] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:15] Request has failed
+
+[20:46:16] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:16] Request has failed
+
+[20:46:17] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:17] Request has failed
+
+[20:46:18] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:18] Request has failed
+
+[20:46:19] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:19] Request has failed
+
+[20:46:19] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:19] Request has failed
+
+[20:46:20] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:20] Request has failed
+
+[20:46:21] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:21] Request has failed
+
+[20:46:22] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:22] Request has failed
+
+[20:46:23] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:23] Request has failed
+
+[20:46:24] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:24] Request has failed
+
+[20:46:24] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:24] Request has failed
+
+[20:46:25] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:46:25] Request has failed
+
+[20:47:25] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 35 1 0
+[20:47:25] Successfully gave items
+
+[20:48:33] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/hatchframes_xl/metal/primalitemstructure_xlhatchframe_metal.primalitemstructure_xlhatchframe_metal' 15 1 0
+[20:48:33] Successfully gave items
+
+[20:49:19] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/structures/hatchframes_xl/metal/primalitemstructure_xlhatchframe_metal.primalitemstructure_xlhatchframe_metal' 15 1 0
+[20:49:19] Successfully gave items
+
+[20:50:52] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 35 1 0
+[20:50:52] Successfully gave items
+
+[20:52:11] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturrettek/primalitemstructure_autoturrettek.primalitemstructure_autoturrettek' 75 1 0
+[20:52:11] Successfully gave items
+
+[20:56:41] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/autoturretheavy/primalitemstructure_autoturret_heavy.primalitemstructure_autoturret_heavy' 35 1 0
+[20:56:41] Successfully gave items
+
+[20:58:32] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:32] Request has failed
+
+[20:58:33] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:33] Request has failed
+
+[20:58:34] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:34] Request has failed
+
+[20:58:35] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:35] Request has failed
+
+[20:58:36] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:36] Request has failed
+
+[20:58:36] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:36] Request has failed
+
+[20:58:41] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:41] Request has failed
+
+[20:58:41] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:41] Request has failed
+
+[20:58:42] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:42] Request has failed
+
+[20:58:43] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:43] Request has failed
+
+[20:58:44] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:44] Request has failed
+
+[20:58:44] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:44] Request has failed
+
+[20:58:45] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:45] Request has failed
+
+[20:58:46] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:46] Request has failed
+
+[20:58:47] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:47] Request has failed
+
+[20:58:47] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:47] Request has failed
+
+[20:58:49] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitemammo_advancedriflebullet.primalitemammo_advancedriflebullet' 35000 1 0
+[20:58:49] Request has failed
+
+[21:01:30] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/feedingtrough/primalitemstructure_feedingtroughplus.primalitemstructure_feedingtroughplus' 1 1 0
+[21:01:30] Successfully gave items
+
+[21:05:34] Disconnected
+[21:05:34] Connection lost ... Reconnecting

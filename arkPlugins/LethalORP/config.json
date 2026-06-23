@@ -51,7 +51,7 @@
         "SleepingBag",
         "DeathItemCache"
       ],
-      "PreventPlacementInCaveDamage": true,
+      "PreventPlacementInCaveDamage": false,
       "RestrictedLocationsRange": 10,
       "RestrictedLocations": {
       }

@@ -325,6 +325,19 @@
           "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'"
         }
       ]
+    },
+    "charge_battery": {
+      "DefaultAmount": -1,
+      "Price": 0,
+      "Description": "Charge Battery",
+      "Items": [
+        {
+          "Amount": 1,
+          "Quality": 0,
+          "ForceBlueprint": false,
+          "Blueprint": "Blueprint'/Game/Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery'"
+        }
+      ]
     }
   },
   "ShopItems": {
@@ -2348,13 +2361,10 @@
       "Neutered": true
     },
     "charge_battery": {
-      "Type": "item",
+      "Type": "kit",
       "Description": "Charge Battery",
       "Price": 500,
-      "Amount": 1,
-      "Quality": 0,
-      "ForceBlueprint": false,
-      "Blueprint": "Blueprint'/Game/Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery'"
+      "KitName": "charge_battery"
     }
   },
   "SellItems": {
@@ -2917,6 +2927,20 @@
       "Price": 5000,
       "Amount": 100,
       "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot'"
+    },
+    "beer_jar_1": {
+      "Type": "item",
+      "Description": "Beer Jar (x1)",
+      "Price": 1000,
+      "Amount": 1,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'"
+    },
+    "beer_jar_10": {
+      "Type": "item",
+      "Description": "Beer Jar (x10)",
+      "Price": 15000,
+      "Amount": 10,
+      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'"
     }
   },
   "Messages": {

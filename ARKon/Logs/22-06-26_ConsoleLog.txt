@@ -683,3 +683,47 @@ This is a bug within ARK which will hopefully be fixed soon
 
 [21:05:34] Disconnected
 [21:05:34] Connection lost ... Reconnecting
+[22:37:44] Connecting...
+[22:37:44] Connected
+[22:39:07] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_wood.primalitemresource_wood' 55000 1 0
+[22:39:07] Successfully gave items
+
+[22:39:11] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_stone.primalitemresource_stone' 55000 1 0
+[22:39:11] Successfully gave items
+
+[22:41:19] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_crystal.primalitemresource_crystal' 55000 1 0
+[22:41:19] Successfully gave items
+
+[22:44:48] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_chitinpaste.primalitemresource_chitinpaste' 55000 1 0
+[22:44:48] Successfully gave items
+
+[22:50:46] Player Connected: Tenombas (76561199164844022)
+[22:59:51] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_metal.primalitemresource_metal' 550 1 0
+[22:59:51] Successfully gave items
+
+[23:09:08] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/cropplots/seamlesssquare/primalitemstructure_cropplotplus_seamlesssquare.primalitemstructure_cropplotplus_seamlesssquare' 100 1 0
+[23:09:08] Successfully gave items
+
+[23:16:32] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/cropplots/seamlesssquare/primalitemstructure_cropplotplus_seamlesssquare.primalitemstructure_cropplotplus_seamlesssquare' 100 1 0
+[23:16:32] Successfully gave items
+
+[23:21:17] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_pelt.primalitemresource_pelt' 55550 1 0
+[23:21:17] Successfully gave items
+
+[23:35:55] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 55550 1 0
+[23:35:55] Successfully gave items
+
+[23:36:09] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 55550 1 0
+[23:36:09] Successfully gave items
+
+[23:36:49] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[23:36:49] Disconnected
+[23:36:49] Connection lost ... Reconnecting
+[23:36:53] Connecting...
+[23:57:48] Connecting...
+[23:57:48] Connected
+[23:57:51] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_berry_stimberry.primalitemconsumable_berry_stimberry' 55550 1 0
+[23:57:51] Successfully gave items
+

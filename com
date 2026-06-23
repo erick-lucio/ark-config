@@ -10,6 +10,7 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Plat
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRailing.PrimalItemStructure_MetalRailing' 1 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableBuff_Parachute.PrimalItemConsumableBuff_Parachute' 15 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat' 150 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat' 99950 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SleepingBag_Hide.PrimalItemStructure_SleepingBag_Hide' 15 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Genesis2/Dinos/MilkGlider/PrimalItemArmor_MilkGliderSaddle.PrimalItemArmor_MilkGliderSaddle' 1 100 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle' 1 100 0
@@ -24,6 +25,7 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl' 3 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Crafting/ChemistryBench/PrimalItemStructure_ChemBenchPlus.PrimalItemStructure_ChemBenchPlus' 1 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/IndustrialForge/PrimalItemStructure_IndustrialForgePlus.PrimalItemStructure_IndustrialForgePlus' 1 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/Hatchery/PrimalItemStructure_Hatchery.PrimalItemStructure_Hatchery' 1 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/AC/PrimalItemStructure_AirConditionerPlus.PrimalItemStructure_AirConditionerPlus' 10 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/HatchFrames_L/Stone/PrimalItemStructure_LargeHatchframe_Stone.PrimalItemStructure_LargeHatchframe_Stone' 3 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/AutoTurret/PrimalItemStructure_AutoTurret.PrimalItemStructure_AutoTurret' 4 1 0
@@ -39,7 +41,7 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/Vault/PrimalItemStructure_VaultPlus.PrimalItemStructure_VaultPlus' 11 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Structures/Ramps/Stone/PrimalItemStructure_Ramp_StoneSP.PrimalItemStructure_Ramp_StoneSP' 21 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/Misc/GeneratorTek/PrimalItemStructure_GeneratorTek.PrimalItemStructure_GeneratorTek' 3 1 0
-
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian' 76793 1 0
 
 
 
@@ -60,10 +62,29 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard' 35000 1 0
 
 
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood' 55000 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone' 55000 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal' 55000 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste' 55000 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal' 550 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/CropPlots/SeamlessSquare/PrimalItemStructure_CropPlotPlus_SeamlessSquare.PrimalItemStructure_CropPlotPlus_SeamlessSquare' 100 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt' 55550 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch' 555550 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry' 55550 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost' 150 1 0
+
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Citronal.PrimalItemConsumable_Seed_Citronal' 150 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Longrass.PrimalItemConsumable_Seed_Longrass' 150 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Rockarrot.PrimalItemConsumable_Seed_Rockarrot 150 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Savoroot.PrimalItemConsumable_Seed_Savoroot' 150 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot' 56656 1 0
+
 
 spawndinobp 76561198158404941 Blueprint'/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP' 170 1 0 0 0 0
 spawndinobp 76561198158404941 Blueprint'/Game/Genesis2/Dinos/MilkGlider/MilkGlider_Character_BP.MilkGlider_Character_BP' 100 1 0 0 0 0
 spawndinobp 76561198158404941 Blueprint'/Game/Genesis/Dinos/BogSpider/BogSpider_Character_BP.BogSpider_Character_BP' 170 1 0 0 0 0
+spawndinobp 76561198158404941 Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Gigant_Character_BP_Rockwell.Gigant_Character_BP_Rockwell' 170 1 0 0 0 0
+spawndinobp 76561198158404941 Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP' 217 1 0 0 0 0
 
 
 SendScriptCommand StartDinoRaids

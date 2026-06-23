@@ -1,0 +1,104 @@
+[00:00:13] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_fertilizer_compost.primalitemconsumable_fertilizer_compost' 1500 1 0
+[00:00:13] Successfully gave items
+
+[00:00:59] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_fertilizer_compost.primalitemconsumable_fertilizer_compost' 1500 1 0
+[00:00:59] Successfully gave items
+
+[00:05:09] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/seeds/primalitemconsumable_seed_citronal.primalitemconsumable_seed_citronal' 150 1 0
+[00:05:09] Successfully gave items
+
+[00:05:13] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/seeds/primalitemconsumable_seed_longrass.primalitemconsumable_seed_longrass' 150 1 0
+[00:05:13] Successfully gave items
+
+[00:05:19] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/seeds/primalitemconsumable_seed_rockarrot.primalitemconsumable_seed_rockarrot 150 1 0
+[00:05:19] Successfully gave items
+
+[00:05:23] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/seeds/primalitemconsumable_seed_savoroot.primalitemconsumable_seed_savoroot' 150 1 0
+[00:05:23] Successfully gave items
+
+[00:07:41] KalangoCego (Bahia): /set orp
+[00:07:51] KalangoCego (Bahia): /set orp
+[00:09:03] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[00:09:03] Disconnected
+[00:09:03] Connection lost ... Reconnecting
+[00:09:07] Connecting...
+[00:09:08] Connected
+[00:12:16] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_fertilizer_compost.primalitemconsumable_fertilizer_compost' 1500 1 0
+[00:12:16] Successfully gave items
+
+[00:24:56] Disconnected
+[00:24:56] Connection lost ... Reconnecting
+[09:40:55] Connecting...
+[09:40:56] Connected
+[09:40:58] > spawndinobp 76561198158404941 blueprint'/game/genesis2/dinos/biomevariants/gigant_character_bp_rockwell.gigant_character_bp_rockwell' 170 1 0 0 0 0
+[09:40:58] Successfully spawned dino
+
+[09:57:57] > spawndinobp 76561198158404941 blueprint'/game/genesis2/dinos/biomevariants/gigant_character_bp_rockwell.gigant_character_bp_rockwell' 211 1 0 0 0 0
+[09:57:57] Successfully spawned dino
+
+[09:58:34] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_element.primalitemresource_element' 3000 1 0
+[09:58:34] Successfully gave items
+
+[10:00:31] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_blackpearl.primalitemresource_blackpearl' 3000 1 0
+[10:00:31] Successfully gave items
+
+[10:03:25] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_cookedmeat.primalitemconsumable_cookedmeat' 150 1 0
+[10:03:25] Successfully gave items
+
+[10:05:04] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_rawmeat.primalitemconsumable_rawmeat' 99950 1 0
+[10:05:04] Successfully gave items
+
+[10:05:05] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_rawmeat.primalitemconsumable_rawmeat' 99950 1 0
+[10:05:05] Successfully gave items
+
+[10:05:06] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_rawmeat.primalitemconsumable_rawmeat' 99950 1 0
+[10:05:06] Successfully gave items
+
+[10:41:33] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_rawmeat.primalitemconsumable_rawmeat' 99950 1 0
+[10:41:33] Successfully gave items
+
+[10:41:34] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/items/consumables/primalitemconsumable_rawmeat.primalitemconsumable_rawmeat' 99950 1 0
+[10:41:34] Successfully gave items
+
+[10:48:30] > giveitemtosteamid 76561198158404941  blueprint'/game/mods/structuresplusmod/misc/hatchery/primalitemstructure_hatchery.primalitemstructure_hatchery' 1 1 0
+[10:48:30] Successfully gave items
+
+[10:51:13] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_obsidian.primalitemresource_obsidian' 76793 1 0
+[10:51:13] Successfully gave items
+
+[11:33:20] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_blackpearl.primalitemresource_blackpearl' 99000 1 0
+[11:33:20] Successfully gave items
+
+[11:48:18] Disconnected
+[11:48:18] Connection lost ... Reconnecting
+[14:07:23] Connecting...
+[14:07:23] Connected
+[14:07:24] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_metalingot.primalitemresource_metalingot' 56656 1 0
+[14:07:24] Successfully gave items
+
+[14:57:20] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 217 1 0 0 0 0
+[14:57:20] Successfully spawned dino
+
+[14:57:34] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 15 1 0 0 0 0
+[14:57:34] Successfully spawned dino
+
+[15:06:46] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 555550 1 0
+[15:06:46] Request has failed
+
+[15:06:52] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 555550 1 0
+[15:06:52] Request has failed
+
+[15:06:53] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 555550 1 0
+[15:06:53] Request has failed
+
+[15:08:03] The server has stopped responding to RCON requests, reconnecting.
+This is a bug within ARK which will hopefully be fixed soon
+
+[15:08:03] Disconnected
+[15:08:03] Connection lost ... Reconnecting
+[15:08:07] Connecting...
+[15:11:52] Disconnected
+[15:11:52] Connection lost ... Reconnecting
+[15:11:56] Connecting...

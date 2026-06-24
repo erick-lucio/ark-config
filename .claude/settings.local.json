@@ -16,7 +16,8 @@
       "Bash(xargs grep:*)",
       "WebFetch(domain:arkids.net)",
       "Bash(find 'C:/ark server' -name *.json -o -name *.cfg -o -name *.ini)",
-      "Bash(find '/c/ark server' -type f -name *.json -o -name *.ini -o -name *.cfg)"
+      "Bash(find '/c/ark server' -type f -name *.json -o -name *.ini -o -name *.cfg)",
+      "WebFetch(domain:steamcommunity.com)"
     ]
   }
 }

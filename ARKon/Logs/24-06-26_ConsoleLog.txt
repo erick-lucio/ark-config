@@ -1,0 +1,71 @@
+[11:47:16] Connecting...
+[11:47:17] Connected
+[11:47:39] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 211 1 0 0 0 0
+[11:47:39] Successfully spawned dino
+
+[11:48:17] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 17 1 0 0 0 0
+[11:48:17] Successfully spawned dino
+
+[11:48:56] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 217 1 0 0 0 0
+[11:48:56] Successfully spawned dino
+
+[11:49:18] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 222 1 0 0 0 0
+[11:49:18] Successfully spawned dino
+
+[11:49:33] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 219 1 0 0 0 0
+[11:49:33] Successfully spawned dino
+
+[11:49:46] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 15 1 0 0 0 0
+[11:49:46] Successfully spawned dino
+
+[11:50:21] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 217 1 0 0 0 0
+[11:50:21] Successfully spawned dino
+
+[11:50:59] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 21 1 0 0 0 0
+[11:50:59] Successfully spawned dino
+
+[11:51:27] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 27 1 0 0 0 0
+[11:51:27] Successfully spawned dino
+
+[11:52:09] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 117 1 0 0 0 0
+[11:52:09] Successfully spawned dino
+
+[11:52:45] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 225 1 0 0 0 0
+[11:52:45] Successfully spawned dino
+
+[11:53:05] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/tusoteuthis/tusoteuthis_character_bp.tusoteuthis_character_bp' 57 1 0 0 0 0
+[11:53:05] Successfully spawned dino
+
+[11:57:49] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 100000 1 0
+[11:57:49] Successfully gave items
+
+[11:57:50] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 100000 1 0
+[11:57:50] Successfully gave items
+
+[11:57:51] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 100000 1 0
+[11:57:51] Successfully gave items
+
+[11:57:52] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 100000 1 0
+[11:57:52] Successfully gave items
+
+[11:57:53] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/resources/primalitemresource_thatch.primalitemresource_thatch' 100000 1 0
+[11:57:53] Successfully gave items
+
+[12:01:36] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/thylacoleo/thylacoleo_character_bp.thylacoleo_character_bp' 217 1 0 0 0 0
+[12:01:36] Successfully spawned dino
+
+[12:01:57] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/thylacoleo/thylacoleo_character_bp.thylacoleo_character_bp' 15 1 0 0 0 0
+[12:01:57] Successfully spawned dino
+
+[12:02:16] > spawndinobp 76561198158404941 blueprint'/game/primalearth/dinos/thylacoleo/thylacoleo_character_bp.thylacoleo_character_bp' 227 1 0 0 0 0
+[12:02:16] Successfully spawned dino
+
+[12:10:54] > giveitemtosteamid 76561198158404941  blueprint'/game/primalearth/coreblueprints/weapons/primalitem_weaponstoneclub.primalitem_weaponstoneclub' 15 100 0
+[12:10:54] Successfully gave items
+
+[12:16:33] Lost connection to server
+[12:16:33] Disconnected
+[12:16:33] Connection lost ... Reconnecting
+[12:16:37] Connecting...
+[12:17:53] Disconnected
+[12:17:53] Connection lost ... Reconnecting

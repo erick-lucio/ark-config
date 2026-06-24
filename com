@@ -69,9 +69,13 @@ GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal' 550 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/Mods/StructuresPlusMod/CropPlots/SeamlessSquare/PrimalItemStructure_CropPlotPlus_SeamlessSquare.PrimalItemStructure_CropPlotPlus_SeamlessSquare' 100 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt' 55550 1 0
-GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch' 555550 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch' 100000 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry' 55550 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost' 150 1 0
+GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneClub.PrimalItem_WeaponStoneClub' 15 100 0
+
+
+
 
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Citronal.PrimalItemConsumable_Seed_Citronal' 150 1 0
 GiveItemToSteamId 76561198158404941  Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Longrass.PrimalItemConsumable_Seed_Longrass' 150 1 0
@@ -85,6 +89,8 @@ spawndinobp 76561198158404941 Blueprint'/Game/Genesis2/Dinos/MilkGlider/MilkGlid
 spawndinobp 76561198158404941 Blueprint'/Game/Genesis/Dinos/BogSpider/BogSpider_Character_BP.BogSpider_Character_BP' 170 1 0 0 0 0
 spawndinobp 76561198158404941 Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Gigant_Character_BP_Rockwell.Gigant_Character_BP_Rockwell' 170 1 0 0 0 0
 spawndinobp 76561198158404941 Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP' 217 1 0 0 0 0
+spawndinobp 76561198158404941 Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP' 217 1 0 0 0 0
+
 
 
 SendScriptCommand StartDinoRaids
